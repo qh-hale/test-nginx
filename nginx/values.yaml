@@ -1,577 +1,577 @@
 image:
-    registry: ENC[AES256_GCM,data:HM+WBThfrsSm,iv:eyeNUHGWVmwzWyHMHrjtYqMu+B9ZlSX1hb48P2YRiLY=,tag:SZDh+5yZNiwEFG2DffCqaA==,type:str]
-    repository: ENC[AES256_GCM,data:a7h2dgbOG4LxOPrHpw==,iv:Dx7b0wKxOHyajGp6EoAhoMuUwkJHS9GYEcTMYQW9G0k=,tag:uw29rintWUlIvomBspfEnA==,type:str]
-    tag: ENC[AES256_GCM,data:z7MNBzEVjpJJYdWMotajVwrehZI=,iv:FKrvZeoisg31apbIOkZj1s/o2W2SCXGcCtdtTCwx4Jc=,tag:KUzbG7xYCefowscZewCn0Q==,type:str]
-    #ENC[AES256_GCM,data:9u+n2HoK9pDjX3fTtqpcif+iY9Hmu42DpNia,iv:t8rA19FstNtH0ZRFW1sYWZya56Rd+gJtPvQSmw06GHE=,tag:aAToR/IxDTnHwBdQYtIZbQ==,type:comment]
-    #ENC[AES256_GCM,data:3oc/RtGxSodVhMn8ge89QNZVN7WlUHpDXpa/o1H4vUOiMbRr058ERNFtRXwoQ3sf9u48pOgKNc3DsHNzfSUEMR0frc+fZGs4/gnm,iv:3GLzrQcy/Co5fQBR3l56mM94q8EQLgLZHSRL00pscBM=,tag:vnhXqZkYUBzJhsPVu8OClg==,type:comment]
-    #ENC[AES256_GCM,data:NDQLV89P85HEzFKCgiEikXKtZ8Z70xkY05dM2twwP9/ZF+jHJ2kjXXxQ2HMlurqD3JkSFdbp8SYe1O+U1YyzJDfwa4xzSQ==,iv:6wOBoLdvRvOgIYxBc2rm0tSQaa0vxEsyhariK4GiE00=,tag:oZkQu9H8m/lNxxtMiYcRTg==,type:comment]
-    #ENC[AES256_GCM,data:7g==,iv:2dW5CJHhL35ZFIfj2voHpK3zfsNOIBi+ETh7O6vJDiw=,tag:IbkDga62geQuXXAHU2A9cw==,type:comment]
-    pullPolicy: ENC[AES256_GCM,data:Ew/IYE82pV3qSlnK,iv:yW8OcG3nvr23MWYioTkdluBhBiZ+5f7UHsQTfbp/uH4=,tag:jcZb7C5UiTbJjycbAHXEZg==,type:str]
-    #ENC[AES256_GCM,data:uH/zYmEVvSjgHsTrW3964/SCmBcZNdZ+BLwTSNkOnXsI7ipX/w/zcimAurdECDeDeUU=,iv:/c05pQp4xf4vxLJNZQBN9woKlQ1x05oGOq1Iegw9QO8=,tag:CUn5OBzo2GTo0BxIFMkIIg==,type:comment]
-    #ENC[AES256_GCM,data:oqSHT2Q9uDxB0CF5nCIroREn1IzznYaRrzvmkXL6iak/5z0JDd2NvVCPvrdSLwMk3r5vpw==,iv:8qJHG1y18bIReH2LwBFSySZ7sugGfRw6OptTO5HOHiM=,tag:Jkf0VkoHFBALrvnD1s/cuA==,type:comment]
-    #ENC[AES256_GCM,data:nAG7BFtbK6TBplzh0nwgTh/dQ9qSJ7jOwaOV8iDR7hnc0/jtIQc8UzT88EMEJxhdJEbrD5D2N6QbaOa52r6tuHeIS89EcTLLbz5StWpSLEYiPvAQY63g27tL7Xk=,iv:fokVqshiND6MwIRUz9RNpjNPfhSyYT8GG4Z8XeXH05w=,tag:tC16dekV17rU4zgKXIDbjQ==,type:comment]
-    #ENC[AES256_GCM,data:4Jt5DYBNuQ==,iv:mjjvIjR5SP1WAvwGLy/F651Pgvsd8SL4PhgY+iPOZ4E=,tag:4OfqGQGzHXP5/sabosaBlw==,type:comment]
-    #ENC[AES256_GCM,data:8l+h1amVW7djUtaBVDY=,iv:KeuGR2Kia8dWLH3qSluhcO5z71PMJewgxXEnu6+CZsk=,tag:Gv/ajPhltLJi6PBOm4wHSA==,type:comment]
-    #ENC[AES256_GCM,data:7fO79jFwhYjYMAVCcMpaVuplhEK1VTWpzUrMbG0=,iv:ylDFnlqN3z8EA0lSJArj8CEcX/U31xitgR7E1QheMco=,tag:kT4S1PTD+h6uayRWp/LDjw==,type:comment]
-    #ENC[AES256_GCM,data:/g==,iv:PYIDnBCQw/95IAFBOYQyj+F6WgC3/0xQZBBG6uC2DDI=,tag:wJvWbYeHkS/uIaQcUJiblQ==,type:comment]
+    registry: docker.io
+    repository: bitnami/nginx
+    tag: 1.19.4-debian-10-r14
+    ## Specify a imagePullPolicy
+    ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
+    ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
+    ##
+    pullPolicy: IfNotPresent
+    ## Optionally specify an array of imagePullSecrets.
+    ## Secrets must be manually created in the namespace.
+    ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+    ## E.g.:
+    ## pullSecrets:
+    ##   - myRegistryKeySecretName
+    ##
     pullSecrets: []
-    #ENC[AES256_GCM,data:uENonSoHrxoClQyfRBQB1+L/f97f+T/Ip65e/7j2mgqcTMWpat9BFqboSIGgfBt20DGsgDvkSxlh/3mILXfqPg==,iv:J/NCQpH7yodRWxIklYlbD0YBmzWYO6jBTHrWvsPmVXQ=,tag:FMDA6qNDx7IVlSSO/nB/Kw==,type:comment]
-    #ENC[AES256_GCM,data:Dw==,iv:oXvZ3kJWaU5nlCYsI1Kh8gFwFllo28xogCDIg53f4F0=,tag:vw37Sfg0lIoWhEjqL6DHVw==,type:comment]
-    debug: ENC[AES256_GCM,data:xNktOIM=,iv:NtxAiyJD/O7Xh+o/nkHHOXeXShSED42jvqeT7wYYgZY=,tag:sctdIKSQ6msELgXyKeuOfQ==,type:bool]
-    #ENC[AES256_GCM,data:iH1+skqg+dYlNDumsNdGeY8qoA56kXUXfwUMrrz1jzvXp87JQK2/VQPVYel7dF12monlgo+OwZI67HUokCNJt9ho1/50us4AdOuc0spPJ7cGPSjV9PPv,iv:Z6eK8ROkokVc+jX1E5UgkCAhpGQHDPJVros+TDDC3rs=,tag:DEqWF89YrRXU1uIi5WQwFQ==,type:comment]
-    #ENC[AES256_GCM,data:Dw==,iv:BASO+eAnznqBtobBtksckqibWVQhuBO5jdT71EZXMiw=,tag:O6p78WDzwUq+FQ0CKlSh/A==,type:comment]
-    #ENC[AES256_GCM,data:lozA0xJisfHmJCB7yLw=,iv:fJsAFrI++rNkdIMf8sfrFWXN7OKkH91ieTbHlE20o0M=,tag:n3xm34GvaBnBhhJGp0J2zA==,type:comment]
-    #ENC[AES256_GCM,data:Z8ikcvA6ZpCV4hb8XlmHEs7eEi/EtikS/Iuiti+wvbWT0lMbV8WMnw8HgB3w+S9SGNo=,iv:4lcFTX9BnY/BaDv+7ZLvBKgS7Gds4xvrES63fR5roA0=,tag:P+VDHpF/LIyDD+JlW9W4JQ==,type:comment]
-    #ENC[AES256_GCM,data:jQ==,iv:TfVqzVy0aOuVliDb0ubApv8BVVufAZRfSpv8UXepSgg=,tag:X8vol2KA7Yq01r1wSd3LLg==,type:comment]
-    #ENC[AES256_GCM,data:pK3TwknM1c6hgUjQ2qvgED6c,iv:w57V7ksxRd5WBPiRD5ictzRlR29KohJ+GHd9znl2Nec=,tag:8XdOr/Ccv6n1E2tUY8tldg==,type:comment]
-    #ENC[AES256_GCM,data:dMv4+QKmhhEDj/zfCkSI/f5DxcmcZKJ43QpZ,iv:CMdP9AY6ZcVUOUi6NdizX661Vj77peZHhzonp4Rjuks=,tag:pGIGK0x/6djPN8E4zXSeDg==,type:comment]
-    #ENC[AES256_GCM,data:uw==,iv:QsllhJjyhD7fD+rMBhm79MNG7PX10qs1eWHFMystEnU=,tag:3Z5RxcIZiOlMb+4QDzelQw==,type:comment]
-clusterDomain: ENC[AES256_GCM,data:lxl6FeBmV+dLYnmGbg==,iv:Aisygu0u0iyL8xaeufjOT3BXlBoUpst0ji/18GkJYpE=,tag:KzI/7ejmpYo379o7+1JGIw==,type:str]
-#ENC[AES256_GCM,data:ctrqkdoYBvhGn+sOijwfRex3mNmlGX+O8HWgRC2V3YAQB/0j0Izt8Exd0KiWokPVAjVs4DbnC3Z6,iv:+CB2U1BsFsMHCiMPtlARS+IH5A5Pr3wX/2/GPKt45bM=,tag:Lzm9PcUbFR1fiLA2as+Ziw==,type:comment]
-#ENC[AES256_GCM,data:Gw==,iv:lVpSfPjC8VHJSKfmEWAXI/LQE3ilk6A72TSRYv4NQuw=,tag:o3nkjJBCorJwhTR13snLCA==,type:comment]
+    ## Set to true if you would like to see extra information on logs
+    ##
+    debug: false
+    ## String to partially override nginx.fullname template (will maintain the release name)
+    ##
+    # nameOverride:
+    ## String to fully override nginx.fullname template
+    ##
+    # fullnameOverride:
+    ## Kubernetes Cluster Domain
+    ##
+clusterDomain: cluster.local
+## Extra objects to deploy (value evaluated as a template)
+##
 extraDeploy: []
-#ENC[AES256_GCM,data:D2wpU8JsM9h37cUEjCryaKDNBugzh9RgW+1NIikMpuce/lCAcZOzeTn/,iv:QDjNEJfOETJM8gtIfJ8Awpfw1ljPZucELDcc+ho0OlU=,tag:m3Y+MiMusz9OUmBJwvAB5g==,type:comment]
-#ENC[AES256_GCM,data:jg==,iv:a3OEZQUDBLwnD6LQ3Bgbh5sUdTzbqfRX99AJrxorvW0=,tag:Jpm9VwzUgFj9cK/MbgKHFQ==,type:comment]
+## Add labels to all the deployed resources
+##
 commonLabels: {}
-#ENC[AES256_GCM,data:BK9LpuulmHZ1AmFCT+86dhfJMxOLvL5xMN2VBHdvjtniOqsZVJUI1i/bgx09PKY=,iv:9NWrVwQXg8Tl3IIj3MikItCYrjYIf+SWgogrn9JlolI=,tag:QelsDrVBip0fwYeCz6CjsA==,type:comment]
-#ENC[AES256_GCM,data:DA==,iv:YvbJnazh3J3En2kTU6pMF7wojrzFehxe/z3BuVmEPIE=,tag:6MLJYhfm/6B44cUCQlkxtw==,type:comment]
+## Add annotations to all the deployed resources
+##
 commonAnnotations: {}
-#ENC[AES256_GCM,data:OhWgt9xjWqNtUZV1dH2qxHSy2+BH2PS4XSqdetxl/sFc5I3uta/IKmxyVWVkwiRXUmUsfu3DC1R6VcB6zXz9T5XUygFPYawGqv2KYYGVwOzCvWlRyzy9gQ==,iv:BgPjtW/QN+toB2/a90wfN9cdr8iPfbscysbScVfKMiE=,tag:u4DgPn/0qmFM55JB6po8Lg==,type:comment]
-#ENC[AES256_GCM,data:Mg==,iv:M8S4bm7i9TcFWY6PKHgkY+JDd3iJ/4DHoRAcYJOS4yc=,tag:WuPX9H3dqHM+82TtR82J/Q==,type:comment]
-#ENC[AES256_GCM,data:FeNSSda9wHdY,iv:Hc9QG0t+kxdX199wFP6bPDRuEFrVpD6XPsnJT3RjvJk=,tag:4Po1RP/7A9DVS1I0KgbfAg==,type:comment]
-#ENC[AES256_GCM,data:sn55bOPB,iv:lA7nWv+E3RwUTp2ieev8jF12NeUvF5s0301UXuidj/E=,tag:hdfTX5TB6llTusMqKujmGg==,type:comment]
-#ENC[AES256_GCM,data:7EDTiUCTmA5Dkr8FXspY3MQsov2IE369DUE5Dw1BLUwqtTxOL6Krbds=,iv:stI6sZ0SS3UVAghL4fnt80NI0IJa0Z0JgHQKsR5k+58=,tag:CaN9PATuLCVaoWYc+Ok+1A==,type:comment]
-#ENC[AES256_GCM,data:9Jo2CCKi,iv:WqbsDsBf14UpUcWQANPeR5ocrDCSMQzb4NR6NkPzlyA=,tag:LNK2Hp/etXUWbw1ZYCZtaA==,type:comment]
-#ENC[AES256_GCM,data:l3VkOqJt7Xv9IISDDyHS,iv:8VGRIdlpbT2mOHvqaF6qUG8HUFdyOwC948D16Nt1nH8=,tag:CHcDaytHx0wRM9q38YFgkA==,type:comment]
-#ENC[AES256_GCM,data:1Tp5+vLammHkfgHulF3R,iv:mgMRAWrVkYCYe6TPIV21GSLFxQewkJNCG9K6+YDNlig=,tag:AlHWpmidM7OjKsQKsNy0nw==,type:comment]
-#ENC[AES256_GCM,data:148Se/7cirTV/dc7Vb5fyA==,iv:rfnKtRtycKFSV4IrvSwf1ZXer6VkEejLFWkVjYRZ/Lg=,tag:pLbNwo+fO0lZeVN0rvvFGg==,type:comment]
-#ENC[AES256_GCM,data:UA==,iv:mAZAtv7SjFsQpYHBuqHESJSD68OQfv5RB4j5g1fv8qg=,tag:oBHrEexBJp25NMkMabdmog==,type:comment]
+## Command and args for running the container (set to default if not set). Use array form
+##
+# command:
+# args:
+## Additional environment variables to set
+## E.g:
+## extraEnvVars:
+##   - name: FOO
+##     value: BAR
+##
 extraEnvVars: []
-#ENC[AES256_GCM,data:eiYM0rPYgX85291MPAaaTeajxzYUZbxU5Grv/HzwiewIClmr/9SqMq1FjsU=,iv:JOoLhWlGkFn3fmFm+LPxkmtw5bFvNEsRdXHLPWuei3w=,tag:ndChBhYHh4Bf6q8bxyNzHA==,type:comment]
-#ENC[AES256_GCM,data:HA==,iv:r8BDs/2sBWfUFdtDSzgZRjWAKa2QG1dWamLIk9EdwU4=,tag:yPvWg5TumHr8DtWQchhmSg==,type:comment]
-#ENC[AES256_GCM,data:z9Pmh7cu28ezRqt/xtcX6w==,iv:WKQxCc6240w52cy2dJoPYq9YVgRs/HOnnBljC1mSNCI=,tag:udu4cqZtdT9RgZAni2IxtQ==,type:comment]
-#ENC[AES256_GCM,data:nh0IXfzaqdw97+jKjjkgF+Kz4U2sX5/o7iNoBObUibja+7OEazFU9DQ=,iv:Wa23SOUGmmifjy56fTGQ75gcmzsokQKBYCBgLGdk8G0=,tag:Rl877O+aMkqTIqVUgomssA==,type:comment]
-#ENC[AES256_GCM,data:iw==,iv:89/uMbTnG0lhDJY8GtrqvkJKpdGLPxrWdW7/t8rWYfU=,tag:PRhgvKcvf5m2OvFI05LnAw==,type:comment]
-#ENC[AES256_GCM,data:Pn/Wh7cmDbh8A2bqq53FFy56h4o=,iv:gvfSHzhwjy53owyAIgnOdcVysj8yO/xIcsNa6y/v/9g=,tag:LtlMsSI5JWZnjrjtEsDTyQ==,type:comment]
-#ENC[AES256_GCM,data:mwAzRIU79vyjqGHulZ+U3M2SZk0RThtAtK2+9z6pNQvgphnuDtNnpqDpQ7F1t+EExpctWJw=,iv:cDVa2YBtpW+YGrpApyUvIh5squfKTBA+NOPB1foP7og=,tag:VSo6qViycEiZM+Wu8/c6+w==,type:comment]
-#ENC[AES256_GCM,data:GnMC0vRsrAVkDebmu+dqLmfqmdeZCfS3aVKva6M7I+F53NhKW93sc7HOVXYnovRAg3penr86ekwh4H9n8hf9Qg==,iv:4pZeiSqzXMuOsUq6wI2w+6heGEXG3rAWwCxzx4MjM68=,tag:3FCvINgYCGq3o7xz9ldKTA==,type:comment]
-#ENC[AES256_GCM,data:dQ==,iv:nXtPri05FRbGw4Ns2M2BrSecamn9mew/eq00yNP6TUk=,tag:SWdyGz8mFzoXRRY6vml7cA==,type:comment]
+## ConfigMap with extra environment variables
+##
+# extraEnvVarsCM:
+## Secret with extra environment variables
+##
+# extraEnvVarsSecret:
+## Get the server static content from a git repository
+## NOTE: This will override staticSiteConfigmap and staticSitePVC
+##
 cloneStaticSiteFromGit:
-    enabled: ENC[AES256_GCM,data:DK7RM6E=,iv:z5tqN7/nTJSLCMN6l6sQWSudeLd/zzYJbl1Q4v0LBmY=,tag:uHHLe5dPntVbjj0TAwV2hw==,type:bool]
-    #ENC[AES256_GCM,data:1HjKgX1+Xkf9661oZzR2nCjv+Dp/hL6XB6dG,iv:opKw8V9+cL3dNFQAGufgFXDNX6QIEpe1e77mWwk55lA=,tag:4HD1qlBKz3dp8uyS7Sq1hQ==,type:comment]
-    #ENC[AES256_GCM,data:N3kMmCt9pGcOysmXhWTeEQekqiD/bXfv81aqAH4gPLg3Kj1TrW6ImeThoRqpcSX/Zg==,iv:rcTjG4HYbpd0sltnjHXVElveY3T0itk/QxfljfF49q8=,tag:1uXzFBqiFaHv9p9+E/f7kw==,type:comment]
-    #ENC[AES256_GCM,data:XA==,iv:aYcTujwmdBW6rRWXojfxfZO8VQw9uICUsVtICeRFcyA=,tag:jCjLRsKFSAE/bj4iarCP8g==,type:comment]
+    enabled: false
+    ## Bitnami Git image version
+    ## ref: https://hub.docker.com/r/bitnami/git/tags/
+    ##
     image:
-        registry: ENC[AES256_GCM,data:Gr19WUU7h8G/,iv:LrYMtESE7elctDhgg7IxmQ9zB1necizwvWUIvxNMZz8=,tag:eeZhJsydt0JhLZ6n9frRxw==,type:str]
-        repository: ENC[AES256_GCM,data:+WExEITis+1de7w=,iv:uzhiZZctQv3DAaOOYnum0gJinhZ5MCzsWqRGIyukyOU=,tag:EXKbOV6xHvv9BqAXbZvHRQ==,type:str]
-        tag: ENC[AES256_GCM,data:eEEu2pBUfBdPZrwCuszNEAd+2ms=,iv:Q7xzggGYz0LusMFk9acaG7e7ezzXCtLHrqmhQuIzJsA=,tag:cc6ZMm1tOwE/yJNYtYsaAg==,type:str]
-        #ENC[AES256_GCM,data:2C7pApc40fpxLpve4T/TVmnt1u5Lbp/agt+t,iv:Ozp75vLSDQC7W2x70A3KJPbjJ32uEIAHVv36IR67uok=,tag:DrUvJJCnZ1Qezm0edoWIeA==,type:comment]
-        #ENC[AES256_GCM,data:5cU4onjBBx3gpLXfL0jzpoogohn1hxuoPL9DtZiejP/HyMMTjJgxZ48j+AC5Z0adiIr5NTk1RIbBN5AHiwf2nliIyur6pMbdJ9mk,iv:1SmtzEnvxWv1oRdyvlSzvQg7E46mAtdVKSIMcKqC6RA=,tag:okCLFdi6Z5T6aqKthILv+g==,type:comment]
-        #ENC[AES256_GCM,data:lte5EaoUcscWeQQKX6jaabgp28ARQQTZNvKcoHoGuDpz5NbkZEU3WyfKaTgnZ6rF7kYjJJ7lVFUosfNf9RU2N3r3Axk4WA==,iv:SjVlKZyCUQz07RsdAhykPyfDgtOvSm6/O+nNJJxkAuk=,tag:b6fJYwE4hQNu7Pi9G2CXVQ==,type:comment]
-        #ENC[AES256_GCM,data:EA==,iv:zOQn+Tb/+KnZO0Cr9WQ2CvxkJQEYLagmQRuTf+8VtI0=,tag:BHjDCdSCPLoh7amvMLf3hQ==,type:comment]
-        pullPolicy: ENC[AES256_GCM,data:aAR4WoVMzeDUUlog,iv:5r1etrPUF/x+8naZnwkykfb59+TUOulh3CxiG8OgIHY=,tag:xxfVP+/FB3SVHFtL0wM6jA==,type:str]
-        #ENC[AES256_GCM,data:X80bdCi2IwcsE1niVaDPM8pE+QGLErSX1SJ2Q6B3Kc4sMOhzJgZBv4/cwlh8MEaUXDI=,iv:7h/9liZFsaPQBCL6sG1Eqwex4uq3HZvbtSaH2T0duYg=,tag:CTZJfifEklRHBYCvfdvt9A==,type:comment]
-        #ENC[AES256_GCM,data:Xg5BMGc7Buwypx9h31jmkwZvi8Csfhy2IQNOo24ULNW0aXht+FSssUGWaGqtiEmJ0NcMUQ==,iv:DsTSn+5ZOHgejQiqRBr4ZDK5I6W5beLvArXZYZ7Yf6A=,tag:XtYrBk4hgnO5jtN++8hyFg==,type:comment]
-        #ENC[AES256_GCM,data:dBKce7ibUQAsPi4p4PQh3y0BeePX6nQGrKMJrw19lMrCWtsO8Fy/8ReTUo+Rw9kmI2I+zx/j7Vx6nBZQ9bFYNp2Jw1StL8Gco1cnqhOhktytChH+SucmEpk76tk=,iv:r5hejjrJfoGvhmKDuqCMLWleItAqW+IZhAcJRteisLs=,tag:IGRlou2Aku8AavfYID95iw==,type:comment]
-        #ENC[AES256_GCM,data:ZA==,iv:JwY/DftoDuthcs4hTtlqIi+jHZ3NeYfTvMdQItHW1B8=,tag:+QggEZTCyjAFeXFzpvdSzQ==,type:comment]
-        #ENC[AES256_GCM,data:D8GPPaQ1VRDSWr7Gbw==,iv:MeZzybFs/at95KtXVI3g50CnTV/OSf1LusMtNhAkvq8=,tag:btrTuyNEKUPYV8C/7IGXUg==,type:comment]
-        #ENC[AES256_GCM,data:W0p3eRDTxJ0TCtw4akW/7ZISHvir3vh9+eMhvw==,iv:fPVeXhU/6d0Qwupvfqc3ZotLl/tn1KVcKevHJOQ9sYs=,tag:shohHGPv23CH3wxWXbQmDw==,type:comment]
-        #ENC[AES256_GCM,data:6++HFnc0s19s0VYY2Iu9jCzdvxBKlMI6PzLHRKAEL03NEOThSS0YGjQ=,iv:OO4EKg2srNF5JFqT2B6QwuaRjImwHFHhAKtmM7Ufsw4=,tag:8xN/rAa/6GMIrsl45LrxIQ==,type:comment]
-        #ENC[AES256_GCM,data:DQ==,iv:0ya47QTxY0vs4qjgpQh8xSj07AjxLInHtTOqWBmgpi4=,tag:cNLJEr/UkrJrlCX7aJrmZA==,type:comment]
-        #ENC[AES256_GCM,data:3sHQrK+5nUGwcw2T,iv:P7sa39ABtixQ0wdltKczJxVL+8laiHDHmChfzIgQCmI=,tag:+pq0pb2PbGDJZ+uYlgtAZQ==,type:comment]
-        #ENC[AES256_GCM,data:L5wbFfWD+wkQ4Xc+PdzTYPN4d6vvk5/T9RO2vHaLSoh2gg==,iv:IjuckagT5/5jn5rvlzZHtyuY7Gbeyfc+jn8fRfKv/oU=,tag:Mu7Uc/7KGrm7hlXgjWjUuQ==,type:comment]
-        #ENC[AES256_GCM,data:zA==,iv:zgXAgNPrAUh+KRir82ixWowzMjrblXPAvZrdWTC2ppo=,tag:bVxhexMrL+BM6oE6w71Y+g==,type:comment]
-        #ENC[AES256_GCM,data:pgbZ5ptmd3U=,iv:BdA8yfG40r7y+rwka6p2M3aC3rZOOON998dKOb+k83A=,tag:NtyZ4fjlXPBAKMPnVsyRnA==,type:comment]
-        #ENC[AES256_GCM,data:KyuSEDLSd9gi4t0vEhvK7rfdFs0x46D7wPCmVkQQJa7TmQlVoT/R1v6SjrSu7Dxh3VpLUJa2B21d,iv:XSOO1DIXYtI/FHaVifFBvTNLjSGHBgc6/OrxeRbeLtQ=,tag:U2b5mLDFbHuA4eeqdrCd9w==,type:comment]
-        #ENC[AES256_GCM,data:MA==,iv:0dRJORQQZzSI5/d4iZVGCAGUUgcU4cTtVIQ7yd74Nv4=,tag:rDVSqUbpEN8EK62EqGZepQ==,type:comment]
-    interval: ENC[AES256_GCM,data:3AI=,iv:gUvXOQTOV2wkVHcWVSTOiEfV9pOclwTXW48CXgdO/FE=,tag:Qr7ha2x2V+elR7SsblnJTA==,type:int]
-    #ENC[AES256_GCM,data:sqwVuTufMHfOGJAyr3MuTCAVD9sknS0p0D3AGPu2pLwQNW8zINEYfpzZtbP3fOGVJycsWqVFK28=,iv:iFw13oGIj/5BfUWM+1LToNOwamnu40oF4MVlnw98ibg=,tag:ef0kIHr90nz4nxhyqnm8Kw==,type:comment]
-    #ENC[AES256_GCM,data:4LSOCV+HU55l/80MlZCVZfoaUMt2BfG3rltnmBoh9A==,iv:nUXd30gNRg49NXzDFpqd8laWrDTnke6dHYmooT9Hzxw=,tag:RyJcb4MmYoCUTNw1z+g3mQ==,type:comment]
-    #ENC[AES256_GCM,data:QogvH2d9/I9ECyrHkplXIyk=,iv:JugxejQ2ASPFwpCY+QuZvXUslxDZiPKCdVUE8YyDhCA=,tag:UcMriX+MPhd+yyTjzMs2IQ==,type:comment]
-    #ENC[AES256_GCM,data:v4Bk2foPHZpSpDGD,iv:vovvevUx0IprErZlDMUTbZnTI4BG5qlQi39yWcVogwY=,tag:LFcWPsbkU4hVd9GumsKXUQ==,type:comment]
-    #ENC[AES256_GCM,data:DBV6oLz9FLIlWwl0FiKZAECUFplnMO/exzY=,iv:N8TX2NsDY5FkyiDs6z3k3slRAXAq/wWLl11KVaZanYA=,tag:4V52wMrdtxKYQe02i6SXNg==,type:comment]
-    #ENC[AES256_GCM,data:bsKxQosjbFIbb7Q+S8Hnxg==,iv:8thzFHriqePuoPPDmCJmeH87gZlI2tM3j6ok1f4JCZ0=,tag:wkdAWrCXvpLNhydsVpUZ3A==,type:comment]
-    #ENC[AES256_GCM,data:laNLtaBNalBryNVxbiG3OMPM,iv:Upjwb8B/KDl5iRbPfG4gZNYjKsbBa41ckhIM7zitxD4=,tag:V62haFuJoS5E7R7Ix8Tp2A==,type:comment]
-    #ENC[AES256_GCM,data:P1lbDj5y1Nrd/eMOcqpdStsg3tuI2YQFwRcpay05Masdoo8=,iv:FzhYYBvHvFHHZQpKMyKBgz3xArzxETEimf3lUCy9Fio=,tag:3wPnCiB56KYMOSqxlNWuvQ==,type:comment]
-    #ENC[AES256_GCM,data:/0kOB15rEA==,iv:QyIxmP7U42tNCUkTp9RhsJK55fjvMoKFgNtGu4oLlzc=,tag:9uPRvb82TANTIuEf9ijUAQ==,type:comment]
-    #ENC[AES256_GCM,data:ueJ6EV/afFL/mtjSzFX2+Gqoz7AJYTTV/g==,iv:eF603I9GoWjTOhL85ExBJ8gpQO/724R4Ei/NdxFzw44=,tag:9HZ0HeQswrv882A0EnVs+Q==,type:comment]
-    #ENC[AES256_GCM,data:NI/TMR4WF62eI1EHEEjraNhvq+2noR/zvDynk9CMn2ch+Wn2k/UuwA==,iv:DP0a2WTzrr1tsw2RPgmivA1vb87OiLVWeIychAIY7TQ=,tag:JO4kSFX7NrZNzsG65Mk7IQ==,type:comment]
-    #ENC[AES256_GCM,data:aG8zLVXqfNuoML/glz0lqiABBMtV6ce636/B58REHkA=,iv:eht5+4kI4FHwqJFb5JBxB19Xat8/pQYXaZdKBORzrfY=,tag:kE014causQz32K6M2AcxNg==,type:comment]
-    #ENC[AES256_GCM,data:0mJMr5WmWmwaS3w2TMxKK6ExZ7/n7M/E+j08cwY=,iv:FBx/PoNFZCgfwDO3Kwi9H4UJipJO3MJvXTRs549qMiw=,tag:cxkxReaSvXY5O7hqOKERcQ==,type:comment]
-    #ENC[AES256_GCM,data:EY/SMug5hQ==,iv:yC2mN/Swg3CdONQjvPoWaT7+Wb5Kh5Nm97PH9s/tGW4=,tag:R2CuePQeaA1joVzIfJyBSQ==,type:comment]
-    #ENC[AES256_GCM,data:ghVEOAA=,iv:mcVHuNPfZQHKTnLYFg9/sAOHRxcXfn6FT9hBo8jdimc=,tag:nwvL+zL5RkLBrFSXUYE4Eg==,type:comment]
-    #ENC[AES256_GCM,data:8w==,iv:m1ywJ1AMttJ/KS2kaydC8wZtWq6Wj5HRrCsf13JaJ8M=,tag:bnVV2A2hs2JKMyKbR+vxEw==,type:comment]
-    #ENC[AES256_GCM,data:07pFiYY5W+4mSy1ADA==,iv:HkxggJm1VbQl6e5tRWs442o3QrScZ6xTJAhu11B4HrY=,tag:6D5Y7clc+hvEfl1Zzno2KQ==,type:comment]
-    #ENC[AES256_GCM,data:gbrfr9i9Im0e5yymamzYx/1YshjLMgMyWQaz478iRXvWXFbuWo/9RzKFQXRgfeV1oJ8qbFDm6/ZurMh8aHo89VhEVk++23k=,iv:tzzWTBRzC02w92PhGrCAUQma1bK7LensKLN10TRvELQ=,tag:2GcNfnD73ZhSpZxPAKdqnw==,type:comment]
-    #ENC[AES256_GCM,data:eqcJfKiKLhXPiGb/PglcseP5dMeAD/jvtB5t63cl8LCmhWGDqIE=,iv:YJfdiSyH8uhmAkWiOPeeXIFX2/IYiOJG0bJa9FYNEwk=,tag:dCqDsY8+Im/OVCUkOl7p6Q==,type:comment]
-    #ENC[AES256_GCM,data:wg==,iv:D0EKkMUSIAKSJnO763iLXxj/Us42gVDpmeXAuD0kI74=,tag:hrqLi3WtGvRoVz7uAugmaQ==,type:comment]
-    #ENC[AES256_GCM,data:eA5KLqYgmnDyscrW8dkiAthVQ3zI1d5WdduPiCqo,iv:cgusS6B7/znkALvK05E28ENkBOMtcvWqhrriWJh574k=,tag:XUgd7GJbq5zm6AAoCKAAUQ==,type:comment]
-    #ENC[AES256_GCM,data:MSvg20zjQVJs85jDJ0l4XSHCH1P8yryi9y8O8znM93N6JMcx8LUOK1aYQy/mAscEKnaR8HwL1f39vB3o2VBTuQ==,iv:pouFrJEOAjjBX/Z7i2d3TYps/i/jbwHPy+F60DA615Q=,tag:ybIEuYxTxxwZyNZShzB4rA==,type:comment]
-    #ENC[AES256_GCM,data:Hg==,iv:eGBHL1/nwFI7DAvWQbB0L3Q5vLc8CXwZ/R4NCEfwpd4=,tag:SVoJAkTp8TuDg01CaQNXFA==,type:comment]
-    #ENC[AES256_GCM,data:BvNOFAzgbriNDzagk4l2qQm8NqI=,iv:JVhjUplAG+EG0CYhG/tQOZBMYX/Hx09ZSAeF6r57wrE=,tag:jWCniUd7H3V5R6GIa0eExw==,type:comment]
-    #ENC[AES256_GCM,data:14FD1PG9r79gmxEfUHQQgGs1DMaQ9pPEVF9f6tGwujU7c1aY6WkAkBtGoQhlEs3r64/h3bPVHfB7NQ==,iv:7txjGhR1F38pQ5XYeB5oWHf89OHACyvLIALqjSl/iU4=,tag:mxJd67xnOD9uaa5laiIYDw==,type:comment]
-    #ENC[AES256_GCM,data:wsq2tAKWmrIWTgw8FFuTY9P7Gj3puFRPWK92Yj0Z4o2NpPmiruK9TOkV5ls/5w==,iv:FablYlCdu3g4ow1seghBQpLcrIEexShmP2Aq9wU+Wic=,tag:Cg9CXqmuCK5wdUDITRm4SA==,type:comment]
-    #ENC[AES256_GCM,data:UQ==,iv:5xeoOifMZWm41nHJJGqpC03FR+u0bZswhsSyrmFS2n4=,tag:mj+/ab6+Kld+jHpJacu+mA==,type:comment]
-    #ENC[AES256_GCM,data:tqALPlIkCe6w/5tIZB0=,iv:f/as9XNNnFTlzKXt6yac5BnWVOSKFI8LPyzZCPYUd/E=,tag:1S20aeW0vsHuFboPEWESvg==,type:comment]
-    #ENC[AES256_GCM,data:JYqKCKCir/1kf9LKe/4PBFotaBytmeFoxVP+RdSE,iv:1+1Ob/0Ti7ld6G01WdKmyOVm3M/1ofhWFVpRIn/TYwo=,tag:U0XQccaXR1j5mMGAKfnGEg==,type:comment]
-    #ENC[AES256_GCM,data:yQ==,iv:5X2rVWghbYocswXnx8Kl0VxAAFUxwJEyTLDzYMOgQMA=,tag:mXvfv/YbMKLKbrQZtdMSCw==,type:comment]
-replicaCount: ENC[AES256_GCM,data:Qg==,iv:GOrIEIeXDVo+S8B6pUz+XxNLb9fLpZDjzJfudX9naqM=,tag:U4oUMo+tOaAUL3QGKRws7Q==,type:int]
-#ENC[AES256_GCM,data:8ln//TXUMyFqezTN3isZrI82,iv:WkQrmJO8HfeZY3N/RGVK8Ws7RDkKTn10O9gidwhPUds=,tag:+BuNsC6LoWaUOxldz9iqug==,type:comment]
-#ENC[AES256_GCM,data:bnaELztQSw3wGpgriHEeST34wIL1kmlumuef+fWoaIsYVthKuUxNQp8p9bIigxq9HBUmPH4cNwoEuu0vSre9sjQQfAxHJlGCDiVgFq4Cwl0=,iv:TJYVhm8Hlvw+zD5vvEEonEZr68bFEdTuoWp0KU4nT2g=,tag:yCjbtcLRJuVS36dbQHaOXQ==,type:comment]
-#ENC[AES256_GCM,data:vg==,iv:qgp6sHiBFt9duq9p9UA1E8gj/TffKPwsJm1gbEbxctQ=,tag:zguxFzOZEz7g/xi9QpUDSA==,type:comment]
+        registry: docker.io
+        repository: bitnami/git
+        tag: 2.29.2-debian-10-r11
+        ## Specify a imagePullPolicy
+        ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
+        ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
+        ##
+        pullPolicy: IfNotPresent
+        ## Optionally specify an array of imagePullSecrets.
+        ## Secrets must be manually created in the namespace.
+        ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+        ##
+        # pullSecrets:
+        #   - myRegistryKeySecretName
+        ## Repository to clone static content from
+        ##
+        # repository:
+        ## Branch inside the git repository
+        ##
+        # branch:
+        ## Interval for sidecar container pull from the repository
+        ##
+    interval: 60
+    ## Custom server block to be added to NGINX configuration
+    ## PHP-FPM example server block:
+    ## serverBlock: |-
+    ##   server {
+    ##     listen 0.0.0.0:8080;
+    ##     root /app;
+    ##     location / {
+    ##       index index.html index.php;
+    ##     }
+    ##     location ~ \.php$ {
+    ##       fastcgi_pass phpfpm-server:9000;
+    ##       fastcgi_index index.php;
+    ##       include fastcgi.conf;
+    ##     }
+    ##   }
+    ##
+    # serverBlock:
+    ## ConfigMap with custom server block to be added to NGINX configuration
+    ## NOTE: This will override serverBlock
+    ##
+    # existingServerBlockConfigmap:
+    ## Name of existing ConfigMap with the server static site content
+    ##
+    # staticSiteConfigmap
+    ## Name of existing PVC with the server static site content
+    ## NOTE: This will override staticSiteConfigmap
+    ##
+    # staticSitePVC
+    ## Number of replicas to deploy
+    ##
+replicaCount: 1
+## Pod extra labels
+## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+##
 podLabels: {}
-#ENC[AES256_GCM,data:pz3yvk/3ti+foKC72vYzoMw=,iv:VNA02cdymNFT57D5D7sCIzno2VQdjNpEVKjOpaCQB8k=,tag:MMj5KVMa2pqBbJ7jiKzdsA==,type:comment]
-#ENC[AES256_GCM,data:8B+No9rIPWPkAiAKa9f4YuAnq4bZYtxXCONQp9vbEyACcj1uaMocyXvBNA2grmk2f8tuIHi0ManDAVVI2oK+xqtPY5d/Vmpg/1S6ZO4cKUB7Z74+TA==,iv:Rx8rhw7CCKZSd9R4u8JmPnetfPc1VS0jTPjUfAUgQks=,tag:JsJWK07bD3nhY8JodToc3Q==,type:comment]
-#ENC[AES256_GCM,data:GA==,iv:a3ikNNmop0WPCPPqIKtOqT2cF2O+6YpHMs2M0GaPEVk=,tag:eOFZ85b5VdPcxhuoe0Wq3Q==,type:comment]
+## Pod annotations
+## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
+##
 podAnnotations: {}
-#ENC[AES256_GCM,data:vt2KOuYuArQ5vccY/88+pjf2P5VO,iv:IZ+vUAWxbvZ9RmerRhFvZnSVW6Uoe+E32kvY0AMvGCo=,tag:6qmCK0qaBr7EevMaN9NR9Q==,type:comment]
-#ENC[AES256_GCM,data:IMTmEkZlx2EkUc13L2m1yQzfNw92l3IjNg95SgL384lQyMXsXo353nNn4Pn/CaYqZGe+H2czw2IRW5vSyF2BnzaJk5oxkz4rDuA2AUECtHPCrL3nkWS3dCNKKBoU0ZURYjzmrkAolBf3KWxu3M3WqkyiXhk=,iv:dnEc2zrmFazGYIqpUxyvQtcaEfgmIjUqOGU2DQoxAbo=,tag:3SH5f9ObXkjdBumuefbX4g==,type:comment]
-#ENC[AES256_GCM,data:rkycTobvOBGZXw6Y5Mg4pA4btVF7clIvv4AMnw==,iv:OKjXSbmNhqKT0S4SwByy2t7wR1WOF9RZ+i1mgTW+L2A=,tag:ypoNTuNC3JA3Z8+eo1Ko3g==,type:comment]
-#ENC[AES256_GCM,data:IQ==,iv:j1znB5zTTdwCr6o+uQ6kov5SJFSeLfXbqeFt6dPz7Ys=,tag:q1gDVe/azbCIsuPTmZ6bdg==,type:comment]
+## Pod affinity preset
+## ref: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity
+## Allowed values: soft, hard
+##
 podAffinityPreset: ""
-#ENC[AES256_GCM,data:riA73ZDDviH+JxHpbjE8VgLVXf8BGsnk4Rc=,iv:THKnH8ETs3ocIdcddk7yo1daggdZXBd8e4NrixdHE84=,tag:pPFWFd9cbgp2V51MfSTl4w==,type:comment]
-#ENC[AES256_GCM,data:3NSVecm6Gv3z4rl6VvSotKhuLH21bHjVAx2AyPSTagcNt3xPs7IYL70LPiliIKCSTRVgSErquXc6yomJljA3uMIYpnZftnEh0M/Q3S6YHLwTjspzw8Gwq7yK8N3isHmIJXsobAy8+UndpvuUj0txh1AZX5o=,iv:NBkhyIoS10FH4u37yDvUybJ46dqLQtGHsFiYcrKW4+g=,tag:qluBYUeb+czjRrjo8+Rq1w==,type:comment]
-#ENC[AES256_GCM,data:MOLbv+iKLXaJgDLgOjSzIi4pO/B3bA/uJkDX0A==,iv:tFzXyFpIYSh4Xka3sB1xCZoNyn5JedpPJCP7ckMMdGo=,tag:gk35v6ZgRp8bnK0zvYV4OA==,type:comment]
-#ENC[AES256_GCM,data:iA==,iv:ooWIZZPN/QTwpARayTGSXmW5nUBCMM93+c3+H2DkvQk=,tag:rInijrK/mYnC1iM50iA5QQ==,type:comment]
-podAntiAffinityPreset: ENC[AES256_GCM,data:f36aSQ==,iv:nK9qKHhJMJWYMRiO6wogWNmOZP8JSlBRVLxkdHYRUug=,tag:OoJy0WdYRV7Y0/xyC6MslA==,type:str]
-#ENC[AES256_GCM,data:FqKRSGtxOPNMdblfnsgq4OPNlvqA+g==,iv:Gc2mHOBP1DSxv5dons5HImnxUSngodomYMPRr9Z36Pk=,tag:QMJfVd7fx89YCMYphcm3rw==,type:comment]
-#ENC[AES256_GCM,data:orM4kgu0eVY7s4mlmc4FocWbkBKxgSr//O8tBa7oyJEecQvAeR2hm3gl0deu3RaK8jImTiK2IJVhxcYMpvmQq/8Nozug94MT2a1S3W5GkCo8bibaGcL1XsR0k+S2,iv:rZtWgqIgNh1WiBmblnlqtNW34e8t7Bfow1jHgvkF5aI=,tag:6CaKsT4Tm9Tk15yvUBuSYw==,type:comment]
-#ENC[AES256_GCM,data:6xVJx7PnGvuRa99CkFGqPjLGTug+UHTa9HAn7Q==,iv:YZXMHk795sQmkdDrcdss8k5J7bAT9QlQ6sCux/AY8J4=,tag:YY3Y8LkSfhsrmnfKyV5f8w==,type:comment]
-#ENC[AES256_GCM,data:7g==,iv:Js9eoY7Ed2KCZDpycAVyz1hpb322yZwxWDwfRSyV8no=,tag:6diUpFN5thtfqH4pXyyKhw==,type:comment]
-#ENC[AES256_GCM,data:aH+Y/Xz/FJjx0QRkdjUHxnnIQ6I=,iv:DdRoYyDyfbRUQWsCuhmldGLG/SLSrNvTp4lMCaXOeZI=,tag:7DScLz1rG5LneyBRh/5g4g==,type:comment]
-#ENC[AES256_GCM,data:L03GrEzqzuhy71lA2ExwV22Bx5fw0dWZ/ZJVAw==,iv:/VIeGXKMq7Fd9s2aBIeCz1IiBTYP6lx85qe+DuxilYc=,tag:Q7ti5/iCdfCjxMejseVdqA==,type:comment]
+## Pod anti-affinity preset
+## Ref: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity
+## Allowed values: soft, hard
+##
+podAntiAffinityPreset: soft
+## Node affinity preset
+## Ref: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity
+## Allowed values: soft, hard
+##
+## Node affinity type
+## Allowed values: soft, hard
 nodeAffinityPreset:
     type: ""
-    #ENC[AES256_GCM,data:MgSpxd5cMX/w8vAkz5FSKZKvzoFJsfccAQ==,iv:VEbUBbue+2GwaVSwdgRyuOj8oGmRttFcQfWHc53dj5A=,tag:pEWTAsC0PDBwabi8DxL1bw==,type:comment]
-    #ENC[AES256_GCM,data:q38u3wYJ,iv:eOEn6/jfgP2oZnrt2XcFr8ofNlfQhuOLh9/8YvHYFtw=,tag:yBTGD+5u0S0DfgL/A9jZQA==,type:comment]
-    #ENC[AES256_GCM,data:FFOKi6hcZ/ZxJTX6vHOz0X+YHBOe+cWIZBacS8ty4XpG1w==,iv:GeNoHZWn18S1I6BtbdDutNeAaNDq7ugtpKl01eLutZU=,tag:vhaUjhmDAUemx1AbmS8YVg==,type:comment]
-    #ENC[AES256_GCM,data:kA==,iv:JqRvWmXs/4EzeOeQBeuGPidH4V9OMatMWax+eKdjsWE=,tag:ax8a2n0in4CWCmiHOcNzzw==,type:comment]
+    ## Node label key to match
+    ## E.g.
+    ## key: "kubernetes.io/e2e-az-name"
+    ##
     key: ""
-    #ENC[AES256_GCM,data:+h+KM/B0/sBejZgh/GNKSI3OatOUW0VbIGgy5w==,iv:qzxaVxSvHLeAlnq0Nafd3SQBO4WpVY1geTlzjoVPSxo=,tag:MCuJWLJoCcIe/24iw9AInw==,type:comment]
-    #ENC[AES256_GCM,data:E1BH6nV7,iv:9UCoFLfFRbE/a/AjQvrpO3Jtt7uz6cn+ZP33aTQPLII=,tag:992b+c87+gPtZXEbZMZdyA==,type:comment]
-    #ENC[AES256_GCM,data:39vmGyg45SD4,iv:xhG4phmgyGHI/Z0FuhvbGIXlVoGU+93SuWib6XDqIqQ=,tag:rL1U5bwPibXDJSlkks3Z3Q==,type:comment]
-    #ENC[AES256_GCM,data:8wiRfcu9qGjgmjKmDg==,iv:P01uuwnZzqM9DyehgYbmJNlGPpqOaDjAkztRUTxEe84=,tag:XJkJft6a5SQwd4POHHDMxQ==,type:comment]
-    #ENC[AES256_GCM,data:UWjoywsgqlpHadlRqw==,iv:Ixj562S4If6gN98xLFR35OAsAez15P8BJVc+NjC6A5s=,tag:yUs4KGpqYki38Mvni0eKoQ==,type:comment]
-    #ENC[AES256_GCM,data:sw==,iv:GT6uYo6RrNHZWYbATyuwnsddFOilkjv/vX+tF/3oZpo=,tag:CvRt3QfJ1i98aNltUuIu2w==,type:comment]
+    ## Node label values to match
+    ## E.g.
+    ## values:
+    ##   - e2e-az1
+    ##   - e2e-az2
+    ##
     values: []
-    #ENC[AES256_GCM,data:blEDmCoi4bkr1GeotxCM2jnXRTYoO2yyThu2V3o=,iv:sjQQiOAy2j2VCLdxxI7XXjXt5yxKoJtNGhAPFUymsQ8=,tag:kAfFiXebS7EOanvJOgxWuw==,type:comment]
-    #ENC[AES256_GCM,data:ZWxQHDvFEurBLBMoigKYCslfuA3dLcwycQkuXtef/Px1dayOoAnKdFuVcQAQlMKbVlfiIDguUGdEA5e+r55MPK0xV9lyA4c5m4xY6hnbiRYrM4KHLqaJZIlEoSZtfODMkFOxJA==,iv:zoZwHy1qaSM1L4FkPvYAB9jaIj/KXW8uB87V/GD441c=,tag:grX+ebCYZ8fAbFzWDYLWpQ==,type:comment]
-    #ENC[AES256_GCM,data:8ygUMBnq9s0rnF731zgLW4NGAkdqYk0qNka5bgaoJtmAHB981ann9PAMuRSnFcm9z+ttmoXeMOzqRZKQgf0B7ytBeW85nu3aXYJipZOVedMH1FF32WqQpLpr11b5NV3Az6Y1kNENqQ==,iv:nXpkkZFwQ5+yNmDPp0z68nSLiU3NAHli2QsZa5ZatvY=,tag:t5CFvZ0gi1T7WQaydlR6kA==,type:comment]
-    #ENC[AES256_GCM,data:iw==,iv:0+p8V075ySeT3YhcAgqcwcsGIqDyzVA/+mtfmu6y4Hg=,tag:0yLCMdvJ69sB8Mo3KXfd+w==,type:comment]
+    ## Affinity for pod assignment
+    ## ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
+    ## Note: podAffinityPreset, podAntiAffinityPreset, and  nodeAffinityPreset will be ignored when it's set
+    ##
 affinity: {}
-#ENC[AES256_GCM,data:v2URiL8WRtgygLLyxQHfYSjRiEuhHLeOyU3YHA58Eiz7MR344v/M7qzis/OxrRbQWYv2FwrcZ2ADtw==,iv:3cusAOMJfSsnuMN/woxZ+ki1XclUQW+gAqu99lzXjiM=,tag:0bCU5cacOQKjb6niQafWCQ==,type:comment]
-#ENC[AES256_GCM,data:W1Bech4jzRmiOZriqfjRElMCL8OjSn5veEofKhBmGlPYL/JoumJ8stYTpxB3Ib0FIlh1/QsVVuQHWV08,iv:HStNwE3B45BQ2HPaQ8Z2aUqPfm1DP1VYiLTIIkJBDK0=,tag:YNwyNvNmhEiO5WxpTtJxxQ==,type:comment]
-#ENC[AES256_GCM,data:XQ==,iv:pbvfv9Ms5AeoDPWejmHW1rTwgiUxFoZakszHXGBuA/Q=,tag:u16Rqc5V/oR+5pNNoENXug==,type:comment]
+## Node labels for pod assignment. Evaluated as a template.
+## Ref: https://kubernetes.io/docs/user-guide/node-selection/
+##
 nodeSelector: {}
-#ENC[AES256_GCM,data:qOlM2SJ9sjFNBVGu+o9jYLreksFrHIQ6viEGgnLWcEOdDdGnGZsOc0feyQhs8+OP2laj3oebdCdU/Q==,iv:u0Pd1PVUQcrMBu3EA6Fq553whWjvELkWJkh2ykE640o=,tag:++W4w6RZd7Ic4XJ6mzWQKw==,type:comment]
-#ENC[AES256_GCM,data:+f2SVL3657ZO7SXC4QbRXl0Z6hJlPRXJ46ZmKYzZy5hEr+CsMYXRUEuhAfTBEaeS4a/X8R3rAD1Z/gpb7U6criNw/85CKvYOK9eKoL0m,iv:ROE8gAcXDTystoaLS65g0qO4o0mdRDe7gUra66Aafio=,tag:F/1nX/WzOBy4UV/p36Rung==,type:comment]
-#ENC[AES256_GCM,data:eg==,iv:j27pqjJvQXVY2EbUqkr+2tUiamofGeIJ1srvGf7tWfo=,tag:xhiQ9043jIzpXD7GhMp02g==,type:comment]
+## Tolerations for pod assignment. Evaluated as a template.
+## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
+##
 tolerations: {}
-#ENC[AES256_GCM,data:ysnyw/BMyDNlF5HB/lq02zb1lDvz2QCIBNBLgyS5uw==,iv:74EmTGKeCy6PSzbEggbY8hN4KoQfVp0u62KhEwMfwms=,tag:E6ri9Xs6hU0FbvFmXsrwpA==,type:comment]
-#ENC[AES256_GCM,data:C5t7uD/n2e6dCaUAfvd7Jc5bIRP5cLKamNxZ/g66LuFANsBdziwPT9YvvQTmQ38+n3ICsgqhNBhqaNGdF9njLN6Htu4pInX7V82y/P8OgSZ6ICiiyWbLYzvS0uWNxvse0IUsq8xsZAc6aLq1xdjzI4yk9yQ=,iv:KAFia5JcDgKABJ9ykWad0rN05vzCx17fKf7XEAzt7WQ=,tag:iVhYeWNLzpSER26C22Ugsg==,type:comment]
-#ENC[AES256_GCM,data:yw==,iv:pyqPydV4ZOe0eQG8fZ0FU5vPQqTLxpWls14fKPkAovk=,tag:niM9RnsrBLCwLCuTGEscTw==,type:comment]
+## NGINX pods' Security Context.
+## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod
+##
 podSecurityContext:
-    enabled: ENC[AES256_GCM,data:VFJF5cI=,iv:TvqiEqwpMLNfXpM3NbmSfit1yz+rx6yoqMOXLtGLWN8=,tag:9TWAf74j339sDVOOp6p3AA==,type:bool]
-    runAsUser: ENC[AES256_GCM,data:HNZghg==,iv:cZwsVV8b9e6PYQJjVQJV56uOaByXuEIkunsUlazs3/4=,tag:7QOZU3PaifGDUk+JGSStyw==,type:int]
-    runAsNonRoot: ENC[AES256_GCM,data:+wgUJg==,iv:lmt0dJXvfJINStFPbDl1ONFdfrr5siHprY5D+2yGC7U=,tag:Adz4KMgrd6f4myhEELB/+A==,type:bool]
-    #ENC[AES256_GCM,data:hYTPFsYx22cDxgraniozVVI=,iv:yaknM8kjo7UT5/wKAwagsulS2gsGygUPtBulzoldX4Y=,tag:pvxNnMrXRjSxjbieOlRwqg==,type:comment]
-    #ENC[AES256_GCM,data:CASy/u0KI4etZg==,iv:mYhuafjepDln7hEsjtYhIOiT1jI9GqSyYLn8NbjJ6Dw=,tag:1Y4ZneCvwHdIPueUCizKjA==,type:comment]
-    #ENC[AES256_GCM,data:c0N7LBx05xSLtQ==,iv:APvO1Ue+CmN1atkSp2r/BeiwTRxhtHRel4rhvtMAx0U=,tag:hjdFS0inqHrqAGp2LUYh9w==,type:comment]
-    #ENC[AES256_GCM,data:Yy0WNbt5ggr+MFrjilEHVywWuSY39ApsVilVBg==,iv:YNOOdh8A9wo7Vc/OY3ea4n8UIM0Ilzugbu65TvpqtIc=,tag:XOSeg6NynpksqSSsVIcJkA==,type:comment]
-    #ENC[AES256_GCM,data:HrHabcgM6WQz0rrtaR8kYKpN,iv:PSIgJ8vqyhRq+6mYfAAjaUVOCEpwN1F0fXmeQ3eDGI8=,tag:ru4F7WGktI3CRFZZAbISyw==,type:comment]
-    #ENC[AES256_GCM,data:aA==,iv:oFYiaY3BQBXCKhZGi1SQHO+YlPk3+ALKJbGanJspF7w=,tag:dRBVVVLCSaQez2hF6h/P8Q==,type:comment]
+    enabled: false
+    runAsUser: 1001
+    runAsNonRoot: true
+    ## sysctl settings
+    ## Example:
+    ## sysctls:
+    ## - name: net.core.somaxconn
+    ##   value: "10000"
+    ##
     sysctls: {}
-    #ENC[AES256_GCM,data:iOMLQKHDKUSMQxyb2b+tY/oGMPw9qWUP7SlEu/aUhU9v5/RVbG06d91TF5bDG1rZZtOjDCsqRhsROzE8tdnQIg==,iv:efbJjmyUe4jN2AbZE+k7gKmu0hUS/2rNamxkP7i6sf8=,tag:vmAaPHi/RTBMZEcBCY12Ug==,type:comment]
-    #ENC[AES256_GCM,data:jsRGN40fZEMn4maDYroet92IsORkyOGucAE+E59Pdr2vBmBMTsPXtIFAUwYVQjgIRn77bke7ZZQrGLfeljkKLnemNcH/N+BVqqcQy4oBEvaCLSXfqmMElISJI7X+ZzoNq5dW/8I8o8ev+g9lHMAXd0zH6VAs40uR3Nw=,iv:6KAQOdoHceC/C04i8eAPue6ewBc8VH5ZYGoYBxDqc/o=,tag:9XkVHu22JhXxLWeAkNtEcw==,type:comment]
-    #ENC[AES256_GCM,data:Yg==,iv:Yy/QZ9aM5xvzwsnhGN43TO/G2sJAzJxcSYetrUs2KF0=,tag:2DOsYFlbxpAbB4bOd9NAYw==,type:comment]
+    ## NGINX Core containers' Security Context (only main container).
+    ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-container
+    ##
 containerSecurityContext:
-    enabled: ENC[AES256_GCM,data:PqOmMXo=,iv:7BuHMWkuBvOICps57RTFmEkKpaxmxkGucKyQipKY4RQ=,tag:xz9a21y9ddwz9lP8EJ5gyA==,type:bool]
-    fsGroup: ENC[AES256_GCM,data:PRovTQ==,iv:pnGatG/3F3KYWcKzo9sm123TI2LjZ1ZSAZOi/D8q3/k=,tag:M7o1ulQnFFGE8huDIGDErg==,type:int]
-    #ENC[AES256_GCM,data:7r/A1YNZfD7Mzo6iVh+fMdkibRxXZowwyCu3vFJBA4IXo6sGtGIN,iv:ND5kVm63gM9WvGVh4anDvydYBVggITWhx2xBokKocvw=,tag:d5dDaFdsezSd0z0ReJfUtg==,type:comment]
-    #ENC[AES256_GCM,data:ew==,iv:1c5sVtrDs7mfHXTHAfXBduU7XYS9o13L1bUrV70+BDY=,tag:2ka2Zim6YlI/OV8eW7JNOw==,type:comment]
+    enabled: false
+    fsGroup: 1001
+    ## Configures the ports NGINX listens on
+    ##
 containerPorts:
-    http: ENC[AES256_GCM,data:7ZqocQ==,iv:uq6DFEyvwvq+kKkeI4C1JP0bLg1asf+E3vEBSzzHAtg=,tag:d6vf32E50An6Dtx0e+TL9g==,type:int]
-    #ENC[AES256_GCM,data:vViVKD+4IanzJW18,iv:2pYqFooS4JaP+0exKcXsfn95KgWI0MDey//dCUyFeNU=,tag:rvgh4w1jquQOrIfLgeWrIA==,type:comment]
-    #ENC[AES256_GCM,data:HhwtWwvuFq7WN/3YutrRPpSUfchH/nFTQCRtkUKshii0N83z2MenoWVaH0J0k0Zd,iv:rL3QK9VP5f/ZfM7mtvURNcIzF0qNxeJDkxXjG2rMbFA=,tag:OC/PJDS+DuUTpciGx4gfNw==,type:comment]
-    #ENC[AES256_GCM,data:lSKSH+dPRKzo+FfcME1c9bh6pHkLgJXulCLYVpSoM+h0yr4SVRCkQZ1SBi5dgb63HNl3XvQ7+FAi9c0TyLI=,iv:JAhaq+pni+eUhBFSbpK/bz6bBSG/GI69qok0lftRyss=,tag:DdOuio/S4DR/9XFL9SI0eA==,type:comment]
-    #ENC[AES256_GCM,data:Dg==,iv:T3Y/kbGMv+d7rgfwLu2HEBot0eveM8i7Ddt2Onc78GY=,tag:rKMlsDh3Tv29rv3SOE3V3g==,type:comment]
-    #ENC[AES256_GCM,data:aCalrnqKCq4QQ2nG8MrNl4M9ryhXfon1Hl40dzocNwC/ogl3GN023TP1HhLqhVs9ItvaYt+JFtkKtRpXebGh+yhFZZbxpdJ1pgnB2m2OeZ82yC/v3EUqUQjbgzdoAPK9Pk671idqiMqyXkF7GRNdH+cu4TeFEsCyg8SGCmcQDdc+vL63BuT9kmOkvxItYuZqgQ9ac/wnQ+W7231TYj6slJlW1qhag1wnB4wIbEUoGk6bXxkIzzcRy+Ngn0SArIWngnp/zaca/OFneD+gd0yGP3F/OZpDM80iuM5QCDEEnVfemwA=,iv:QNYnibBd5l4qOpDFsFTaFC5Qa1vwlkoOb8B97yJ+MUQ=,tag:rsanRAqeWdm3lKrf1KIDzA==,type:comment]
-    #ENC[AES256_GCM,data:d7qtPo8XkvCOOrpyY+ew5F6yckQIrdE/Pitdt5YG/hUmKEUq1NS9TaKmJ96Bq1JQnTDrcoRwzF7JaQfpyMDGwRhbNq6H6/hs/OFsn8czgv7PLXb8qOf8b6Jtd39wYWyKnxD5ejCgRIOiNfQP+8K8b3T2N/Ljjiu1vhPBaaBm7Zg9jjkcgzWRF5R+PWuB5w54r6h44LxdcewVOEpDZUkJU3/MMqSnXqdMZa0fiPIY5iB/RYBfrcNM0zM/VVqDqemi00eDk0RWkhFIPRXukLNpgSTLXhKOnBS6An/ojs4AxMidsr8K20ZH,iv:um9RzbqLdN7igHUnE1fSiG/qfumvwk2hBZUIKZMotRI=,tag:3ThC+X//AA1G5Isu/tApQw==,type:comment]
-    #ENC[AES256_GCM,data:6c5nhzqg3xtCQL0kxDSlhSqrIMQaPmyWp6rndLTHAdCGPkCYiPMS9w8Xkp6NoppUb3XTBftoIbviO3qweLWLNMSkE+g04QO3PonSMUgpMAOjYO2qO52mqe05YRtStf1qQBwycouy8Xac4yjtat5+ubKNEgIX6FpVOd4UkLh3XH1nmy+1AltgEBSPgSxgdkrS9dZG7hoP+bBMA9EgnJRWTxgIk/HCauRyboV32F82LwUn8zaXeAOLxih7t26k6Uws+S29gCvFHj0mVTFpGPFcBS8l7zQvht/ypyiFiBfV4RcBR1hUk1rf,iv:B/cLtgp70O4gZRVjd91MSMNQ4ptXh8ro3HFFObRlSzE=,tag:8GfyyBOL+vDnLjI2msvFuA==,type:comment]
-    #ENC[AES256_GCM,data:xuZhi31ZYq94aSy61lKIQehpSWUjKpQHG30iHthTUdQEyuGch2mnSNJoK5yrbab9XzeFH35nS0LXeuHHe0hVyDkW1ylunT64TBrsZArxR/k7MBPX0h5SqksGpIgM0y8E1BT63ypMncq6NVdnrQtK3N8dttUHpxzRAU1jMfp8O8FHmau6XGnNLliSy082wOl3bUSBJqnKlS8dNTCJL3+pmFD1xfSbAKZ1pUzMs2DEWvR8ctrtsEaOlJIaYELjkUULP8A+YhB5fFjOuBM6VmnRcnwnHfKh9s2QTnfW,iv:dX1vzdfhc6qKB5CAdRmQKegjEGtZABxJ60LL1xewZEs=,tag:TYZ7yGP4G5EXeve36DTBrw==,type:comment]
+    http: 8080
+    # https: 8443
+    ## NGINX containers' resource requests and limits
+    ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
+    ##
+    #ENC[AES256_GCM,data:k84jve/XJVhu4/wE0l6tdaH45BTXRRjRCdYV2Iw9T2JyQCx4sknVBs6oCeafWz0YRuvgA48yof5bRpcf58HcGqCHCksFevV5/wRj650VXq9MW6YzEL/I,iv:X4nN2+YKgcJReidG4kYnKNh3ny6o9cYaL0qR7+hCD/o=,tag:XwjdwI2F5cpe40vd7FYVFw==,type:comment]
+    #ENC[AES256_GCM,data:HIgIrNrAEMZ5Fl5c1UHyN2J6E3r1DZh4+musQtCE7eaBkfXaBXP0INEDsIC6rbWN5mpsXLeP4rJhXi3hokQOixDEZPXOOf0HHl0HzZcTNuSmAwHbf8/SLA==,iv:rewa1+ZVRB6Ta4RG3LvhT5iOWwx/IeFkNeMArExR2AY=,tag:cuJIn/9cTGCwY8MlgX3q0A==,type:comment]
+    #ENC[AES256_GCM,data:/+9HqbXlCl7V1/4c9iNwQ4iqVpmdVSigQkz1bqBa/sho3MriuhXxEISU9k2N1hWpKT/m4C89hbSTzFFG2DxCY/bKR1JCs74EOCn/SZIrqECkoNvVfTpN9qRw,iv:fNMPpA6l9BJnYnBhpCPxeIo0NmY0c2vOBMJzHi47jBQ=,tag:1WsAK/ZWasetOuCC/AChiQ==,type:comment]
+    #ENC[AES256_GCM,data:O229I8Dtw9GLDy3SuhyynsgStt2ts+sDjKcForNc6L2eEAH9+/FMUyBJSGiBW/inC5UCLnLM2IK0cWqWEXj2NNuoI+dbzgi68mwyJpRRoz5g,iv:60KAnisXDeGOI5sbSzF8cosdoS8aB78I0ngFfjzws4Q=,tag:PqWcA9NVffrPjNo5880j1w==,type:comment]
 resources:
     limits: {}
-    #ENC[AES256_GCM,data:Okf6F38XSJmXtnk0,iv:vJNjjsmikmdbPtJIT2FjLDrY5kPE357Zz+AieuFSY+0=,tag:IBy4Ekdwu9yfuihzsrBj6Q==,type:comment]
-    #ENC[AES256_GCM,data:YZa0QrAgS57nd2nSvY3yfw==,iv:mscpxSSOItftN5EM/6fddQL+bx1aWwfrBIvN9bexmVM=,tag:0EPjufATCFzSrrNn/+MgWA==,type:comment]
+    #   cpu: 100m
+    #   memory: 128Mi
     requests: {}
-    #ENC[AES256_GCM,data:Yq06fKboI80ha9bf,iv:XarSYTNgBkveo+ZnjQO0h3ITllulhc5lbyIMfpedgWU=,tag:4fmTd6QCIGH0CXpzRcO6qA==,type:comment]
-    #ENC[AES256_GCM,data:UnrLkpxb0ZOGv29+RWRLjw==,iv:WKeQrlQzKPkJoQdKhzGZOIHHxhCwtA4A/TyMno8++qQ=,tag:w9N9FVqZQ3A/4+zAAApJTw==,type:comment]
-    #ENC[AES256_GCM,data:rGnyuAwlFBiLNrEiSseuv87zZ/EkWoyGIS1L0X6eZuc4SpE9fs+J/G0elHDA6/aLOwc=,iv:xncWw64GzjxcQEJbbw06vO740rCIsfs+JG/eeN99jPI=,tag:FapWWO6pZUwvx2NgL61biA==,type:comment]
-    #ENC[AES256_GCM,data:yQyGiRvSyPhDXTjeawbCy7SQO2V+I2GI1KPyyCdcokvd1d4X+e+z28XTd8uISsISKaeqRAdam+JezmxfGpVRlbHCcbo0m8X4gbyi3E8MtFE1U08uQfFZqzc=,iv:AvD2KLB8WAI5kG1CoMyA7SFhky16IVZCV/s3Z3HhMDg=,tag:dWsa+lAwIF1QPqg2e+DUmw==,type:comment]
-    #ENC[AES256_GCM,data:xw==,iv:RJ8jG1y8K2poj9TXn5GXWms44P7X6wvN3r0+7SQV8A4=,tag:B0zol1W97WGP7CP3WbcgOw==,type:comment]
+    #   cpu: 100m
+    #   memory: 128Mi
+    ## NGINX containers' liveness and readiness probes.
+    ## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes
+    ##
 livenessProbe:
-    enabled: ENC[AES256_GCM,data:5G0uMg==,iv:nt93XUdDQ+P2F1mECLnpWSBpyfF4VLD9SyISsl5R7d4=,tag:GiZOxU70GCXX+OFJYjNgGQ==,type:bool]
-    initialDelaySeconds: ENC[AES256_GCM,data:fT0=,iv:Y7hmgCRbOeQHgBWF35A9sT3mm7IUycASXLl0vTnW5wY=,tag:przW26zjxYPL/iNB21N6eg==,type:int]
-    timeoutSeconds: ENC[AES256_GCM,data:UQ==,iv:nKnx09mTEI/288UhvJjdXx1ldIjfyWAVfmkB5dYklDs=,tag:gwQrNML++Jk6UHw7bFAMRg==,type:int]
-    periodSeconds: ENC[AES256_GCM,data:uR4=,iv:H1Hfzk4RNO0XfHMR2lsiAkdlRBZ0Rw5/qvIrBPXc5Vk=,tag:Jvf5/mWwJ71LaDCMVSmRjg==,type:int]
-    failureThreshold: ENC[AES256_GCM,data:YQ==,iv:sMltEYa32ciElZvfHMsdL2DpHVqoNigMmkvgpk6aXb8=,tag:TBiQBXEO6jV6WLZwIWAROA==,type:int]
-    successThreshold: ENC[AES256_GCM,data:4Q==,iv:4E9RRNg+75m/EWmrLXbVoQLEDSGj9lrr5q6ZDXH5HHs=,tag:38GoXDYflF+PIDMJxqeVug==,type:int]
+    enabled: true
+    initialDelaySeconds: 30
+    timeoutSeconds: 5
+    periodSeconds: 10
+    failureThreshold: 6
+    successThreshold: 1
 readinessProbe:
-    enabled: ENC[AES256_GCM,data:YSc6TQ==,iv:FQTvuhGuSH5IdeNr3CAzLeEVNhHJZGj78kM8uRliQI4=,tag:jcwq9eYQT7kMwAO1QVEAiQ==,type:bool]
-    initialDelaySeconds: ENC[AES256_GCM,data:CA==,iv:DQdOh2ev+TekxWfuuA+6s/CJROCv5Y320P9JO5vuSYA=,tag:Uy22F//CfgshBzsTHIcWEA==,type:int]
-    timeoutSeconds: ENC[AES256_GCM,data:GQ==,iv:RjZ3I31MyRCjQKXrd/oFblTV3FqRgjdtli8W0l269T0=,tag:8t/y5FuGMxol6j/OLwKJZA==,type:int]
-    periodSeconds: ENC[AES256_GCM,data:2w==,iv:tL80YjLobptG2+HrFicAzYwIMjatZPcjdRtehlvSLD0=,tag:yk+NUI81UAMfr3pboEMX6Q==,type:int]
-    failureThreshold: ENC[AES256_GCM,data:Pw==,iv:swtwHX3YP3paSfn1H4UHZzFFXkxU4DDySRrbzlJtntk=,tag:wBPKc95kLi2Gi83T2jXvRQ==,type:int]
-    successThreshold: ENC[AES256_GCM,data:yA==,iv:LPA8HB+q5LGH5ADEon/tYKiZKowE2hdbL9Wt9mnKzcw=,tag:768+tJsodoP4wudtHvbeDA==,type:int]
-    #ENC[AES256_GCM,data:Vv1XtR711zPHE5FFgwjog7bV5zK89yc=,iv:vtqGhnbQjdxKhcwAVfy3B6kd3nG6u8zvX3IAlbl8tuM=,tag:iPjkPIwS92H5D3IB3QKlew==,type:comment]
-    #ENC[AES256_GCM,data:3A==,iv:kzsYASiwx3CyShPo/a2jeTJZQGZeCX8MbVQfn5Q34c8=,tag:RB/nwa7wq7fJiclWwIYBLw==,type:comment]
+    enabled: true
+    initialDelaySeconds: 5
+    timeoutSeconds: 3
+    periodSeconds: 5
+    failureThreshold: 3
+    successThreshold: 1
+    ## Custom Liveness probe
+    ##
 customLivenessProbe: {}
-#ENC[AES256_GCM,data:JVFsDU4MKKLT0KILPwaqs9EyPyRg0Hg=,iv:2mo3WRlhJ0jPdoTYl/hTzO2BizwMbRPt2qvzSPx062s=,tag:ikrlhdW5iBbntwAGtUDtPg==,type:comment]
-#ENC[AES256_GCM,data:KQ==,iv:7L/pTcwDnFtzLkmZhvQkzZWe6nrtazCppQ5jcueAGE8=,tag:B/v3yiTl0+DGF8qPNwi+Sg==,type:comment]
+## Custom Rediness probe
+##
 customReadinessProbe: {}
-#ENC[AES256_GCM,data:19zw4w/fIh7juoxYA6O1EhA3VVtW6jVw,iv:Z0JbnZ0/YS1cPlCgiCAIZiZswVf4gKN9/vIY2fije/4=,tag:dCrFtSEhZ10cOXlA/4zMjA==,type:comment]
-#ENC[AES256_GCM,data:og==,iv:hZuPr4/sBrhCAin1MO/PmHCU98DJkL85vCCg0ltjhiM=,tag:qqVnIiSzLRNR0up8l1Cj0Q==,type:comment]
+## Autoscaling parameters
+##
 autoscaling:
-    enabled: ENC[AES256_GCM,data:G006jms=,iv:T3JBZr30NDtzTsd7sWVlWlo/JwAiayZioMJnPq+B9Ds=,tag:3+dHhmCO52jUZEtGhpu1Qg==,type:bool]
-    #ENC[AES256_GCM,data:8TLm5KctBIaPRpmgfqcV,iv:GKvAvYy1TYHoiWJB/AlMMg7wHJ5s+cgrKLOEb5edmYM=,tag:QDhKHnMfGCbDNF/X+FxpYA==,type:comment]
-    #ENC[AES256_GCM,data:ZEFSktU38+TEhU5+5pdgNw==,iv:syFE+Ssd1X1dtk/4iBhRV9zSfQ5ddes1mvUhKcTR+Dc=,tag:nGABuRiay+fnoic2/JgDrQ==,type:comment]
-    #ENC[AES256_GCM,data:rAO0Gy4V/WLbn0aplW0=,iv:KC/UwT3oF3T0mns1QohshRxMw1UyJ78iC+egA/rtcj0=,tag:tZZw1lqY9kVTq9bIfQ3TPg==,type:comment]
-    #ENC[AES256_GCM,data:83az7Pvjpp29VJhYd6bSW70=,iv:6MmMSJRmEpyJnHbWW9iZiN/Yqxki0mCul95LvDSIbjE=,tag:O9WBCKZO2JS8IvOWjNfZSg==,type:comment]
-    #ENC[AES256_GCM,data:N7RTfSHj1uwvWhsbrjC0OaVz98iq/JCZM6d7/b6Kr2hTaOWOzskjB5A4qBd2bGeczenFmWQd,iv:Iti1ODewiYlU6pGpuh6dP5KZm0F6BSou6RxF9CckUsc=,tag:Qsm2mvDgmBbNB3IaD8T8Gw==,type:comment]
-    #ENC[AES256_GCM,data:Aw==,iv:NMoTKb8eF2pvNrSoKhFpI97Zh4NVli+/BVSPoSyFNxo=,tag:QJIu/fNKYBBk5Ci9KIoIZw==,type:comment]
+    enabled: false
+    # minReplicas: 1
+    # maxReplicas: 10
+    # targetCPU: 50
+    # targetMemory: 50
+    ## Array to add extra volumes (evaluated as a template)
+    ##
 extraVolumes: []
-#ENC[AES256_GCM,data:Sf1jZSONzJ2sHgu3u+SACRqCszdwmQWc3KfVixuFHQZC7BjLLKO/ud/hz6/NkQUyHhQRRteTRnOPEBWGU6DLMG9fVjpZ0TgboIfgzTE9d48QYujk3E0=,iv:jbI3kjc+/GKW5iAnq3Q46O0lexqz6nGt9N3YEURDLjU=,tag:P6m4YOPQkZrkpF6Ju5jOJA==,type:comment]
-#ENC[AES256_GCM,data:rA==,iv:WGUJEY0+91Zhje7E22iXGrV3eBXAlBEijsDCD59m79M=,tag:0GEQvXmshhOhBehASeyPaA==,type:comment]
+## Array to add extra mounts (normally used with extraVolumes, evaluated as a template)
+##
 extraVolumeMounts: []
-#ENC[AES256_GCM,data:Cyg+ybXQZPSz30knDaS68jjnwCuZqOxk0fA=,iv:aquWdAASYSduX2+iSPmUMp8lENn+3NOCAwUOk0oqz84=,tag:PVLmis7gRhNUfVHsEdBK0w==,type:comment]
-#ENC[AES256_GCM,data:zw==,iv:Cf9P1+sneGZAED4RSdPCnG2SRb04O3DwlJfAx5dFYVQ=,tag:p7y9jwGi7ddY8Ihk0ch/eA==,type:comment]
-#ENC[AES256_GCM,data:4UjKCrFEKXvKBLu/afE=,iv:G6u0aXh/g5np86lrdm/TN7/RdCQ5GbMIsnY1X9rA0xk=,tag:MpGXSm0N8XmocCOnmBwjPw==,type:comment]
-#ENC[AES256_GCM,data:mg==,iv:s0+iSoSZSUly9XE0B8NPwQJCEYpyy8oAMrvhbN+3gSc=,tag:X4WL0rCKmy0szh7ThZHaOA==,type:comment]
+## NGINX Service properties
+##
+## Service type
+##
 service:
-    type: ENC[AES256_GCM,data:tGt6oNAEu+vp9Rhy,iv:WLW1W7Hi6XnaEutxajRqgJMccqbF8EvYDB+t+H1bJ9w=,tag:RjHrEMQQYPOLgRCL5Mhbig==,type:str]
-    #ENC[AES256_GCM,data:L1+Q63qFOtfKFww=,iv:amdQ7CthiNxVgfsLly+DaaFd/RQBIRfNrLC79GIVv4s=,tag:HeeAhHTCEQIeMRoto6Gt9A==,type:comment]
-    #ENC[AES256_GCM,data:kw==,iv:Neh3vBTHFuNF7C6oyLNfSb2gP9DP5TTxXCwx2gbWX48=,tag:jS9FxXSpxEIomZCdpEPCXA==,type:comment]
-    port: ENC[AES256_GCM,data:FnM=,iv:SBB0Zf/moVF3P2gjHSE2nAjQbsFhRVKg/Epc58BlSxs=,tag:ZJIh/TZAgvF/vhaR+fzsLQ==,type:int]
-    #ENC[AES256_GCM,data:9H5aieoZA+TOJjLh,iv:LRXDETH0tbbtufP+7bS7WOfVOLhewSVvCmQPbF568V8=,tag:lETIWnxGwX6j4BOPpdvy9w==,type:comment]
-    #ENC[AES256_GCM,data:Ig==,iv:2ua5zrd2ARdHj8oIJYM9+1byOUYej7NxhTLzyynLuWM=,tag:2KwgQ3hlGoJGSUIr8mm/Jw==,type:comment]
-    httpsPort: ENC[AES256_GCM,data:f9S0,iv:J05pBqhoF68DHLBUch5FgXi6cVqM5Ibdvy47t7p/5gI=,tag:uO3CmpdmCTTO38SyJ+5Q9A==,type:int]
-    #ENC[AES256_GCM,data:9QvEjbhF9xK3RtLMC+ILOSLm2syQe4WvPBCM4O8wFFLDQIKWNHs+4TL1OzpcfSU8onS8M/5Je+jCo0sxEuoAWjVMm3UZga5ZoAy4gj98OeL75Vo=,iv:cz08m24N20L+em3VIBVOYTCEeOrIwvXt+2wbutqQ+r8=,tag:D2giOiGFJBbrbcCcZzJyEg==,type:comment]
-    #ENC[AES256_GCM,data:j7zPH6eL+hDiswkM0ZanpktChpZmhI1w/g6e6OUzojSWwihGLKywfUpPS9AaaL4Tcs9vPmFalLKtVqREMRrHKLnYEJaMrWoOR4dYTVIBz1uQwjM3TA==,iv:bUX+SNGNmNcTHJeJ2d4JG2dG6QQm3l8shSwDtowmE3Y=,tag:dmThgis8DYWnZ91ifANSHQ==,type:comment]
-    #ENC[AES256_GCM,data:zw==,iv:/yhRWB7FzIj5EzB1mC5LAlD0ikN7QYMvLssPbK9CtC0=,tag:VZAr+id4dCu05Rfg3cqiZQ==,type:comment]
+    type: LoadBalancer
+    ## HTTP Port
+    ##
+    port: 80
+    ## HTTPS Port
+    ##
+    httpsPort: 443
+    ## Specify the nodePort(s) value(s) for the LoadBalancer and NodePort service types.
+    ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
+    ##
     nodePorts:
         http: ""
         https: ""
-        #ENC[AES256_GCM,data:ZZc3dipAg11QR132oeGFiOq7fqLvv9sSjc4T6es1U1Ku0ELPk1pKEM10DZ54wSbyq8lG9CqTw3zC7ktfOpj7C4gr7mEjiqWJBmYkOLsbivQHI72xDFnZqaouXidV,iv:mt/9WCuGmaInAHsMJvl/XmPvk784+5vnL+6XD4y3abg=,tag:qLs7qqp/A0/ci5OJ1mBlrg==,type:comment]
-        #ENC[AES256_GCM,data:DKeNp3g6qopGLgaVkEw9JUd+Vih3vRHWk0xstjmx6YimxouwCxfO2RyhP9fk0npeFEvjNT8LAcp9c8IdSoyCX+NiCT8HQXEZSYNJXSIpOV+7GAU=,iv:HBmN7m2iUIKE7SZRnN5T/lknnJQEaELPDayUn+2K3Z8=,tag:A/2/eJS5TXF5WBHGLhvIxQ==,type:comment]
-        #ENC[AES256_GCM,data:MePwmJzHra1/O4QpoMAk4H3SPyboLruZbieD6zKStlEbKo2oQGGM9LGMoRalRgvaOupCgEWQKx2DoP7NhPFOkFm5J1+iSQ==,iv:MoerKvtM5R24dvZ7Hc4/Suqnmzg5dXBu0wDJp/d8o5U=,tag:MTcqrquvQB8YF17syC1mRw==,type:comment]
+        ## Target port reference value for the Loadbalancer service types can be specified explicitly.
+        ## Listeners for the Loadbalancer can be custom mapped to the http or https service.
+        ## Example: Mapping the https listener to targetPort http [http: https]
     targetPort:
-        http: ENC[AES256_GCM,data:R1y9fQ==,iv:k631Bz9V0hqJynPgeBpG2rhtrOlwuGrjhKLNAUE7gMA=,tag:ebtSQgeJGcyxZ7lRO3E72g==,type:str]
-        https: ENC[AES256_GCM,data:DhgawzA=,iv:bI9wQDGC8qHFz12KhZxdwb7qInmAF6teOEBfmjZXyas=,tag:uKKMSNTXRZ5LUrI/AE9kKw==,type:str]
-        #ENC[AES256_GCM,data:xa73qDRoLFfGPrv9I74lINxuOEzUhA0MZmi/uhIbXkvgPBTxT+N/BmlQwzCVNg3lwMKmomo=,iv:1SV85xyTHBR5K7c8ye9qhcHDPp+ExsZTBhTQQRnC2yQ=,tag:KhmFSV7LKyvXNjioNOj/yw==,type:comment]
-        #ENC[AES256_GCM,data:4mcRap8xxfoyNYQNhkCJmcQyrvXGl5LFcnMmvruYT9GtnCtrodsDpUdye/78Y2v6OxHdtXYCNE6VgR4a3jkmBX8iF3SJvnL93+K5nBPfhT+MxOF9dF/VigtypQvMUA==,iv:8KW6jYq0zUZLX60h0c1vXuKP7LRdWgikfIQtTEo8ve4=,tag:KTKLxJdVOEttsiroct4rbA==,type:comment]
-        #ENC[AES256_GCM,data:kA==,iv:M5njyxBxlaad9QTcx62a2KAZn3qfQKULH9HVfY1x+UY=,tag:unnmDLFMMuSv5bPx/ZLLww==,type:comment]
-        #ENC[AES256_GCM,data:WXbOi4gKO3evcqyZFTlRXg==,iv:AGPS6/HWRpSvM6uRQBga7MMVwT2WMhhNGGQWFQnLWA8=,tag:GkU3wcZxRWBKGkI9mBbZDg==,type:comment]
-        #ENC[AES256_GCM,data:W6plPSNDuhlCciOACYRJyTHYUz1duQoRBmkp5qvXNkpWSVTLviSzBh75GgNSYY0V0UiAzIJT9r2Q4vRF2f3n9EdiiCBwg9gv5fxLJJe57Q==,iv:tM9TjuBBYQnFYHpWP2UdkNx2u+Bac3HLaxPpRXl20c4=,tag:p1oB4IokExss9VMWBJgUbw==,type:comment]
-        #ENC[AES256_GCM,data:OJFie8izkRC2wo5KzTvPgb6jagRtKIQhVo8uesxsslZ2kWHqmzol0u+mLZgHSmjvYVsqNY8=,iv:4djrYKxOjLfSiax3cH/ELvZl2ZEAkGmrgIwI3/ZRJ6I=,tag:lPqLck1yN9ngKCg+Zlus3w==,type:comment]
-        #ENC[AES256_GCM,data:fasmasc2w7gkLNM9dvzTd3/JYJTBeRNORpC+vhvLKL3GnxUC9qq/iuRv+YoYUxmu/ij4oITXZN+vHdb1+1t9E8A1K54mmTVuYqUqTBjJPvHCtlzTg0SoZKSU0+vzaw==,iv:Fo0Z7hNnJLl5e91ocdexLLYmsaw2w9DaW1VJZYJ2nM8=,tag:YFkj1zu3JeceKzuCarAe/Q==,type:comment]
-        #ENC[AES256_GCM,data:tA==,iv:mY9dIlAyYvkrrPY12/IKinHx7M2L31SS/bTqr2vEb1I=,tag:yskV2XxC0/DxukwOsha5gg==,type:comment]
+        http: http
+        https: https
+        ## Set the LoadBalancer service type to internal only.
+        ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#internal-load-balancer
+        ##
+        # loadBalancerIP:
+        ## Provide any additional annotations which may be required. This can be used to
+        ## set the LoadBalancer service type to internal only.
+        ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#internal-load-balancer
+        ##
     annotations: {}
-    #ENC[AES256_GCM,data:qT4vqlkFQmhKBPMDhnaQhwIqDhznBz6zg0nrrigTWPJi/fglRhQ=,iv:ky4yO0OX74p8MXEVCgektNYpPEqOTOnOfrlQ8uf8+uk=,tag:+5uI2hobeWSvF+8+oiGiKQ==,type:comment]
-    #ENC[AES256_GCM,data:w3Q5XmH5s5p3gMshbWEh/tiZJDuyRoXMLU6w/6SKcpMH7L+i2oclQr6BYyHGFsixpEdRXj+86XNDNZDQR3v8WrWBN6uGLRPDTTMK1AiY6Q05OfEaEJ7rR3H5WWMk3MQGIkMQG+FLzqQmdhN96wSkPKZ4pG5gUHf4ls755sC2GQ==,iv:7TcID+Yz0lEs1SZ+Zxi9xHssSbpPZTsSjevRfZAl2Vc=,tag:WhjG2cJxqmtpmeWsE8G0TA==,type:comment]
-    #ENC[AES256_GCM,data:RA==,iv:LUstIEqRs6l2ZlHB0CWRNzY815LSiNyOPHpg7LYGBs4=,tag:U6IORVUBKQT8nuaB2jw3jg==,type:comment]
-    externalTrafficPolicy: ENC[AES256_GCM,data:6Rx0D3vgxg==,iv:dkED9IZiemeEIx09JiZkeF0KJikeEjU7fAc4PmtH7ec=,tag:elre+/JIEmGDVLQHKGGlUQ==,type:str]
-    #ENC[AES256_GCM,data:RfegPTvLvxROIUZaqb4U0iIqigLz3LbakVpuF6Y=,iv:Tbe2jw+MRBy5RqPZjIYUBPMSzDB5Vdq6hsnPMQ4QoI8=,tag:ciLEEN3jqm7xcfXXl2K8Dg==,type:comment]
-    #ENC[AES256_GCM,data:NQ==,iv:bIUINKYkFHGOHBn9AB2mQLqDfM+XiRBZIRkV4hQA1S8=,tag:92qbVMJ7aeWt8oVBMVeInQ==,type:comment]
-    #ENC[AES256_GCM,data:Vr2jo3pPj4ipj42W3+JCSURO7tPD0KNSY4L7FjQVRs2S38oAES8=,iv:GFUNTq7t8UkKDXWgAbyaeLWLGbAvcnYSHJ3MZ4t08Ak=,tag:afzGRX/Y5/PFK1PcGHbNrQ==,type:comment]
-    #ENC[AES256_GCM,data:pO/BV+CLqr1YfDtZPSiMg9IBT13mV6yYuYgIL6j9tRV2d4IdtXnE,iv:2jNI+2QurvDH6nr6p3Cv/a8sYHU00Ob106xvgcR5Qy4=,tag:cSam9CCOoBAtymB7vgIbFg==,type:comment]
-    #ENC[AES256_GCM,data:Ug==,iv:yqpMQGkVuN8259a+bWbWLT6LyVrJnQFWYGAu8d1pTkQ=,tag:PEVU9plHyNg2YLk0jJ1c1Q==,type:comment]
+    ## Enable client source IP preservation
+    ## ref http://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/#preserving-the-client-source-ip
+    ##
+    externalTrafficPolicy: Cluster
+    ## LDAP Auth Daemon Properties
+    ##
+    ## Daemon that will proxy LDAP requests
+    ## between NGINX and a given LDAP Server
+    ##
 ldapDaemon:
-    enabled: ENC[AES256_GCM,data:55bMbbw=,iv:35xT25Hef52ZktXOXmLuhB/5e7tcHeOqbOaVSwkFbKM=,tag:KyeiioCPwR48yOe2jI3oKA==,type:bool]
-    #ENC[AES256_GCM,data:LQuwCpVvf7eTxCF8WX2GwHiBte27ZCqODQCtQCRlufHBcrPVpzo=,iv:7984nJLW7Q2zWESlucL7ALDWuz0CfL3XomYy+d8NAi0=,tag:hJiOsxUZaPvDCHHc3kFepw==,type:comment]
-    #ENC[AES256_GCM,data:OA1Lf29K5X+pVN+ygTlc9FHTlgedOtNPY6MuXnlSg80rZ/+7TVqAgR8ZAiiEUtT+HNdlEWBeNT02vjAqZfQmQ2OrNg8=,iv:pyU/l9wjCXTMIjAa6ax1fkJfzcqYb9bI1Gkwl9hrRIk=,tag:2zybQPXjV7u97m6B0L7p+A==,type:comment]
-    #ENC[AES256_GCM,data:iA==,iv:8rssNfCjlIEjA3ddqDFJfaLqFXih3tXsaDkfjVFV2GM=,tag:cNEuywfgfAlc9zUal/yZIg==,type:comment]
+    enabled: false
+    ## Bitnami NGINX LDAP Auth Daemon image
+    ## ref: https://hub.docker.com/r/bitnami/nginx-ldap-auth-daemon/tags/
+    ##
     image:
-        registry: ENC[AES256_GCM,data:i7f42AWtrcns,iv:bE4w6+M6rRYBv6A95NcjRWC15f5olvCI7XfeX4CDd54=,tag:XqNW6yBbsVjBDqRZMPfsAw==,type:str]
-        repository: ENC[AES256_GCM,data:yvHmGUcUllW4hDQkCJlF49i6NGMzA79XNCYDc//c,iv:sObCZXAcbMXF++ga9p+nVbMK77uAktH5XwY88BwovAQ=,tag:8FGPdQqP5kO3wCAPgInYvg==,type:str]
-        tag: ENC[AES256_GCM,data:LwQeHpJbNczKteRcuVqJjgBTUSqMhwEmTaFP,iv:mQgtcuq0TsPWz4nDhe8OuMLWag3PXIyhyc3SK8QcXiA=,tag:8PrzD5mfg7QKOtAx2cuBoQ==,type:str]
-        pullPolicy: ENC[AES256_GCM,data:Qsk1El8mA1cq1Pl+,iv:g8HgzEbHKof0YwfiidjXWDJA+tB5yHNJDDjvTcZDgd0=,tag:f759PZSeixNOU7NaH3n7cg==,type:str]
-        #ENC[AES256_GCM,data:4jkj6SJrmZnisdL6NlSHOLAY,iv:MB0Qmfz7B47AhWf2We+UK305mfdpbjgdS/azp0/P05w=,tag:aC87/joLOs2UXD+GAMd7Ig==,type:comment]
-        #ENC[AES256_GCM,data:2A==,iv:X5Y3k3xe67nsE3AUYvfL5jl9hLocagDqxqwHVM6SS/o=,tag:k5RU1e8J/36s+HnGe7X4CA==,type:comment]
-    port: ENC[AES256_GCM,data:gcszGA==,iv:qC2+aa7RrKyKtSmhxYqM8WIzT4+sA7KtUkPkjdYE9Iw=,tag:9LSnTbH+kzl48M98wX27ng==,type:int]
-    #ENC[AES256_GCM,data:7KXMtTpMJSpqN+ShHdXAJNmxR62szELfPbLrJ0//4vQ=,iv:sZcuXv2nMU0wq+n3QcJYPN4AvHDsHmLoeMwsMBqu+Qo=,tag:F70/21/fSCf2gilaQB5pkw==,type:comment]
-    #ENC[AES256_GCM,data:EA==,iv:qdzbcA/ABRWSdW9KnE6YeMcqAMWI9cCGpOb5VaA2D6E=,tag:U2KtIwk8RrvdRXzwsl+bdw==,type:comment]
-    #ENC[AES256_GCM,data:OJZI+ZyTHyVS5GZaISfNvygBoy0+HBKsZ4TGjy0w1epPtT8pKkbZMa9lEIW+ISMxjGYP736CAYWJYE0pLHFlkQqq,iv:25N9Qzr+5aDcYMouLQGhWkolczXTcefsRaxKC/IIJVc=,tag:NqW3if23q1Iuy8NHVejEFg==,type:comment]
-    #ENC[AES256_GCM,data:joEj358VLdD8kQa4Xdx63oHPpl5VAPf7QrkG1CHA0w==,iv:V2JuI1LS6rPqVFrTxhH9Ek+x8B9NOspBxGadWrwsQi4=,tag:hoNmQBaNl0f4OJ71Ls90UA==,type:comment]
-    #ENC[AES256_GCM,data:gQ==,iv:CimPM0GyS17VDMaggjwB4OBvFdKGC6LMXM934WGDxLY=,tag:5SKAEz3DoF7TRx30P5u/eQ==,type:comment]
-    #ENC[AES256_GCM,data:q2wW6gDERSykiVFNld8UldXuhzD5uNiL7gXkPk9cJEoPyiQvWUWSGaHprMlzMQteKbdT4v1L/Qv4kQF0MRG2ThXBnHGppyPs,iv:CEyWQ4HhGL5Iw46QgE7sB6c24/xPR0Phir28CXZ9QJg=,tag:CGI2cLf8AiY64KMHiVKZgA==,type:comment]
-    #ENC[AES256_GCM,data:tKUpx/cfHJa8b03AmuQEKAKQcEGS7st5jQ==,iv:z98tPjfCuy+lJ4NysvzzRRNDy6d0BawqdoFe9VqRiQ0=,tag:twcOVjTOpZkvVCAIJlDi4Q==,type:comment]
-    #ENC[AES256_GCM,data:Og==,iv:ozDUM72uPOhjgHJTR7gfVBZgecJG6FursXSJJSpr2gw=,tag:P5VJmLp4nIZZM4r7/6ZzQg==,type:comment]
-    #ENC[AES256_GCM,data:4A==,iv:F/2wWQtCE9BPRLkaJDzBvIGDRsVmgYro+vcBOgiKl/Y=,tag:zWg/Kq6YftnYGmLrZFP5uQ==,type:comment]
-    #ENC[AES256_GCM,data:m1KGavl3qRCAxcP9ap0aJmMKn1b6LX9JY15dMYx3QRLkDHIR,iv:jVyhiFW99XT2NZe+JlGgu9HLsXIdY/fVvoThvHORLHg=,tag:ETOsGyk6yJXVS06XIhQe3g==,type:comment]
-    #ENC[AES256_GCM,data:2xhkeh7YZ7aFo2RmdYM9JrPoIzKbkyDHM18V0YVJfUQo6Rzg1omVY8iutquuJJK8PAMvMf2WpA==,iv:1HgadiTQtNvSCUA4krf/uqbw/Y7ZekfNvw97QmO6UZU=,tag:rIKggcdzbEzuy+DZ02QDrQ==,type:comment]
+        registry: docker.io
+        repository: bitnami/nginx-ldap-auth-daemon
+        tag: 0.20200116.0-debian-10-r167
+        pullPolicy: IfNotPresent
+        ## LDAP Daemon port
+        ##
+    port: 8888
+    ## LDAP Auth Daemon Configuration
+    ##
+    ## These different properties define the form of requests performed
+    ## against the given LDAP server
+    ##
+    ## BEWARE THAT THESE VALUES WILL BE IGNORED IF A CUSTOM LDAP SERVER BLOCK
+    ## ALREADY SPECIFIES THEM.
+    ##
+    ##
+    ## LDAP URI where to query the server
+    ## Must follow the pattern -> ldap[s]:/<hostname>:<port>
     ldapConfig:
         uri: ""
-        #ENC[AES256_GCM,data:nu2tj02Icq+lWGE3zYXtMJaDiWdp,iv:/E5fECcP4Mu8Fs7YYnygmSf0Z9q8vY6VDB4CzTaZBXU=,tag:YmljImYFkf4Nm0ujM2FSTg==,type:comment]
+        ## LDAP search base DN
         baseDN: ""
-        #ENC[AES256_GCM,data:qR7k3ehFq1f+WB2GwFk=,iv:oPYd6unTjCJWEZbnKmHdDFcnhWl6cxFsR8Xz6HtmTuU=,tag:fT1TZPRULoc5suaucQcV5A==,type:comment]
+        ## LDAP bind DN
         bindDN: ""
-        #ENC[AES256_GCM,data:op2P8GO84eoPDgG3BuDlo6u6ocs=,iv:C4M4hbHuZaHnQpBgw5IT+w0ad38iM7vZ4b9JevjvUoo=,tag:u9BeIrt6YLL59SuhR5EleQ==,type:comment]
+        ## LDAP bind Password
         bindPassword: ""
-        #ENC[AES256_GCM,data:RSDXgmTm8jsmJ6gaBAS+U2KNpMA=,iv:Jy2MKbO1xK1sSTzSK9H355OPN8dYMnfAUu4y25AY2dw=,tag:9sLjdlms7TbsRwab6yG0+g==,type:comment]
+        ## LDAP search filter
         filter: ""
-        #ENC[AES256_GCM,data:eeuheNJhCrM5C0j3Nh7mhxI=,iv:hRP1TicB08RNYVmDvz0J8e4q9Bi/xJHme1mltfc8yx4=,tag:5n1HHxEpJDrer3jsZjyIpQ==,type:comment]
+        ## LDAP auth realm
         httpRealm: ""
-        #ENC[AES256_GCM,data:VybZM5KA6O1Lf1YJqbvCR50R,iv:mm0RBpE4uven7uurqqzWvHTq/pDfmMnW+msJ897kcbg=,tag:6QGYJpc+m0Iip3VqPgEoBw==,type:comment]
+        ## LDAP cookie name
         httpCookieName: ""
-        #ENC[AES256_GCM,data:aavz9bSoveh1PrcZ13FefuBI3bwNvOErUzTDgD65yG9UpJDiCbA6vZipEMB8OnWUzaVhJHcJZIkN5Nw8pp+S7ds=,iv:DysMoP+Ns2oiy9uWCANrHjweV/HirXg+3MFJPsgDtrk=,tag:z50fOrqi1RS0DMiRtjy2NA==,type:comment]
-        #ENC[AES256_GCM,data:J+tqEc3MXEjfA2PmckF7m4f4i0kWO0AJP2OIRZTaFwrpKs0Ok0X3zI8DmjuKjeUxgV1eXFSnON4vInxCC4DGXfRL23WzEmqU6g==,iv:B1D4kr5Dze7ZX/R582/g5ri5+qUJOvMwzF5TGg4FFh8=,tag:keIJVh54XcBPoahNd5M/WA==,type:comment]
-        #ENC[AES256_GCM,data:czOjx4loGhQ4cWWPcyA9dslPqtVa8fa4Q6fwhl2QOJWcp2zMJkgkHdb07c0f9GHpkkvUSME60x/NdM/i7N50OYkvemJgHArMXg==,iv:nzcgPNGNzEmPxu8CmiBieScwZM9+2Onqbv1aB1XC5kY=,tag:3WOY1ZZOK4gLpdSS/TrNcQ==,type:comment]
-        #ENC[AES256_GCM,data:BYpHZJU65/YGWgf87/iFVHAmmA6lMNTILlg=,iv:475XCrsn4DBrnO8kCxeAFid+8IpXfpg+HWF7NjWLCoQ=,tag:tSbg3DYTNfSyACrFyxcESw==,type:comment]
-        #ENC[AES256_GCM,data:Qw==,iv:y7BbqGv/NooH54NvCsNjmXt+t+/YNZFjYKh5yyCY37E=,tag:1C5UvymmAwkLqAv7vBWs2A==,type:comment]
-        #ENC[AES256_GCM,data:/QSIkD3hBjy4MGtTK1jCRTjwbttk9eqwIWAnzDZL2boCJRiPztROcLy6AjvR4W6eyTyIWCsWpF5VkD+7Qw/ojzg=,iv:eQI5paGkOFumxy5yGUyxirGdkZ48AhBiTV9QO96Vktw=,tag:JzeRXfJAqE3dFxj1MrqW0w==,type:comment]
-        #ENC[AES256_GCM,data:HGUoLM4l6+pFtTZxFXwo2AwfcL35Q9Yvj6beWLboyiqDk8E=,iv:6WZb8XNlx61t4N+hdQufHACD6t45X3xe6tnDq7a+Tb0=,tag:lIfrOP+N16N9hbF4IQJ7mQ==,type:comment]
-        #ENC[AES256_GCM,data:Ww==,iv:XcswRTSblLaEqvejyGPiYKSZrWCW56sn865QMPfNdhU=,tag:/FfOozfpR1JP8gIiBo1W+A==,type:comment]
-        #ENC[AES256_GCM,data:5kDFiAYHL9dc2j1T2W7s3O4zCZ4PM9pL14XHH200gt0giijHCtNC,iv:tgOcrMrohmuL2Bcgu7iAByxPa1f8v+3AlZqXEWldmHk=,tag:UefFAIDuc7rlfZRe89+TWA==,type:comment]
-        #ENC[AES256_GCM,data:dQ==,iv:7As5FUxMJ3mhDZgL+lU8mIajcREELgj45ZbC7ddiV1E=,tag:ADj+ksvMCGNAgD03pl2eGQ==,type:comment]
-        #ENC[AES256_GCM,data:pg==,iv:VEQlT3x8LHe8SZ9KJGGxo3eSTThCoDZZJHh9D6qsPTM=,tag:68batamnSUn5r/aBSo0COw==,type:comment]
-    nginxServerBlock: ENC[AES256_GCM,data:ExWE8n6ZiAw5ARPxCnZJk5pp/0nmpd75xNwHvs89lgcAZ72YRIiGqiaE6SBLZYHtb4bhN6eAQYMY4boIWTWeXWsbUMP+DoDa0I3rHozxs0N/giU3cJy3P3vEHWnRecgyUtQNl3RCOjlO05Y4LXe/vdTKjdejxuuVSQIYLcmOFkMtC+Ul/JnnUvA55LVMgAZn6PPqDikzUGe8OtT6qkl88fGrMme+2MiSdFluctTEdqV7zbLz0GCjF3gB8IVKfebYxgIU/laLL3TuFgApS1OGUjsuengwsjtbIETOiZlZe2VT29GGqwG8T62LOgVdBwuC2PvnOC7mmKlsQxUWxI0E4MDzBv/A146H5Jje4zTbcyIDuX2xguEgcsOKRyY0iK70v0KMJ08k9r6A/9+F3pX0ObaUNqQSwsrTsjPOouLgqkF5AeKBDp+xTscHN6WMfV2rG6waG/8KZYGCobafSmtjvdLzSY+Dk2He3/DwZw9Hd3W499kZQqRsi9ba56b+ugQpYhRXXYLTUy9kGc4GXen4s/ljs3NlYzsASok8yvIcaO3yObnFOqlZ+AeaGuMpfPXazaOZUBE1MU059GIK1w7XfDm55M+f/Kej97QrpxAUnf5GO9rUyCL3PGfKEKTlv3UIWDIxvIF5H7BqzEJDAwPeXmzs1C3xl6w04UxzD91s+XlWLzylkSUbgt0pxDJjCmmM1nFHHqvkEWH6mwpMu4EeZVC8n4KqWZT2dpXW+Ii4ocRchlS4mmsfv+dOczN5KigZXun0G3bTlXsYPhG1DO/5pFGgkfVB6J6NtRMto/i4hShdNzlbcGubzTG+AhRrzK2UotU/c/4yYqqYHq2WAYvTcdwgY/2SSJSb7kNsawB+yiwe1T8wExqcKNwNYwf37ZQgg26HPq6jeZxcPrKC6XXan0RNxYhg1MszRbxN3V98KzVvwELmoQG7pK0XKeOiNlUIn37ZkF7t4pRcIHQLeCbUiVI6YtV+I/gcc+b/7e19Da9sTpyobniL5KdfRSFclie1dWhD0b0LIPEnzlp02xn7T1YDMmrVafUt3bR72b8PedLy+l/B6RE6GC0nJMWPIQw/qO1RPp1UcBx28vHzL0Zk,iv:RJReGd4QHeM/SuBd6DO7SMzBChoZ4zFe2fxf0qCDMc8=,tag:jsOTWoVJB20PYGM69LIL3A==,type:str]
-    #ENC[AES256_GCM,data:AmL84jEVQOlrHk9W7wtO4WXVhwf2HIGmiQ7rlqq9WTOgXnF2UgoIbd+JUb5yYytwLSPXGPhfodf5lW0a+iGLsiA=,iv:Amz5SudzN4Oe7VcUWqlAUPAhw1R4i42Tw1fsKoneN9o=,tag:Lz8eVGinwgnGD0jMIzsEHw==,type:comment]
-    #ENC[AES256_GCM,data:8OrXB87Tn57+DH26Njs1zwPjK/KCtwqmbYv6xHPU30BhhDQ/X+G//1grSladxKqog7/0rRkpBcwRhjZXnw==,iv:mvJ5qlDLhYxfNCusBVEtzcyBnc+qq5cTHHhrMBYjDUU=,tag:oig/RdtqMAC1UO4NftYqfw==,type:comment]
-    #ENC[AES256_GCM,data:xw==,iv:+JguGn1plqhs7qmE7spk19BzdWKDqttvyJhHrTfLbR0=,tag:hn3RgqUX+UPsfiIVoVj82w==,type:comment]
-    #ENC[AES256_GCM,data:OBQaGRUWlF+/OpPtrWhpF5BG4+Krt1Lr21Zs9ax7m+4MvCMkhcpLtaf0HG8m/xyBYgg/DEFIdctsmSTrL55Mmib17XsHrchLJmOU,iv:cUzoGHvbQs39iLWjNHHD185BxGUurpiKTBo20o8PBsM=,tag:aCokMHnwAYYhLfE9hn/0/A==,type:comment]
-    #ENC[AES256_GCM,data:Fw==,iv:mrOBCAuipUDnqK3UpkS2+MveFL2t77OkUcPWOk/kfWA=,tag:0f4H0QdAHgykn5k1TFJ4ow==,type:comment]
-    #ENC[AES256_GCM,data:GxAdl04dPzP3ue1JGu6RWPDa+wWu9vX7fcrFsfRqLXBV7DhKJXpPpBF87KteFQKGfHFMYG84UD7zFCqX9A==,iv:DtXJUFe/dF3xpnNDJudyw3gnExZdl2ce9OSg3+eXRkE=,tag:gwdt4r3cx+HBLjA2I9u9og==,type:comment]
-    #ENC[AES256_GCM,data:yz6sG1gJM/wOYMbK3McXXcvnHLjwpf/b4ne5vG319ZezdLcZNkujjZ0kALlgGuOwXNUN94hPXyQmsjZbgj2rKKTVvLle6JIUVgB9gpoWJAfc3ZZIkbgfuHU=,iv:QkHi0x1ic2lMpGub+KAoLnU9Ii2zPd5bvEvPElnXgeA=,tag:Uc/Rg0ksZp7XhUrTBRNIjA==,type:comment]
-    #ENC[AES256_GCM,data:Rw==,iv:dwFrE3myXJWCATQ78W2vFVgtGVqwgrQAIpaIk1ZyXZw=,tag:BFacDCnyXjL9Oy/LDsVcdQ==,type:comment]
+        ## NGINX Configuration File containing the directives (that define
+        ## how LDAP requests are performed) and tells NGINX to use the LDAP Daemon
+        ## as proxy. Besides, it defines the routes that will require of LDAP auth
+        ## in order to be accessed.
+        ##
+        ## If LDAP directives are provided, they will take precedence over
+        ## the ones specified in ldapConfig.
+        ##
+        ## This will be evaluated as a template.
+        ##
+        ##
+    nginxServerBlock: |-
+        server {
+        listen 0.0.0.0:{{ .Values.containerPorts.http }};
+
+        # You can provide a special subPath or the root
+        location = / {
+            auth_request /auth-proxy;
+        }
+
+        location = /auth-proxy {
+            internal;
+
+            proxy_pass http://127.0.0.1:{{ .Values.ldapDaemon.port }};
+
+            ###############################################################
+            # YOU SHOULD CHANGE THE FOLLOWING TO YOUR LDAP CONFIGURATION  #
+            ###############################################################
+
+            # URL and port for connecting to the LDAP server
+            proxy_set_header X-Ldap-URL "ldap://YOUR_LDAP_SERVER_IP:YOUR_LDAP_SERVER_PORT";
+
+            # Base DN
+            proxy_set_header X-Ldap-BaseDN "dc=example,dc=org";
+
+            # Bind DN
+            proxy_set_header X-Ldap-BindDN "cn=admin,dc=example,dc=org";
+
+            # Bind password
+            proxy_set_header X-Ldap-BindPass "adminpassword";
+        }
+        }
+    ## Use an existing Secret holding an NGINX Configuration file that
+    ## configures LDAP requests. (will be evaluated as a template)
+    ##
+    ## If provided, both nginxServerBlock and ldapConfig properties are ignored.
+    ##
+    ## LDAP Auth Daemon containers' liveness and readiness probes.
+    ## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes
+    ##
     existingNginxServerBlockSecret: null
     livenessProbe:
-        enabled: ENC[AES256_GCM,data:QQMeMQ==,iv:dnkin0nvkW5m/HSC5ZICEUjbtXOu3MDW7SDnxrZ/fbU=,tag:BRJL52b5qzcb0DoDburprQ==,type:bool]
-        initialDelaySeconds: ENC[AES256_GCM,data:dpQ=,iv:WLmw4KxmlgdtDmcctm159CuqWOgD7Who2fTvhezQGHU=,tag:oTsHLQl9WdX2ui3naAIpvA==,type:int]
-        timeoutSeconds: ENC[AES256_GCM,data:oQ==,iv:i5AHbQ08xtoIfiqIfrZqqRHiPvo5Eri6ep2GntzqqIQ=,tag:XOfaLEMjYtr01wO0+6Q+lA==,type:int]
-        periodSeconds: ENC[AES256_GCM,data:o1g=,iv:Z6rlucmZ6wHqT7yCI8oAKMWNeSgeXiQhqicRJNoVOes=,tag:Qg1zJRHc/XQJjukmH1P/zQ==,type:int]
-        failureThreshold: ENC[AES256_GCM,data:xA==,iv:xaPEjYe+DYymF0iBFdCwt5G5aSFtsIFp5hsbzaBqNos=,tag:W6BMFk1imyFrQDB72tetyQ==,type:int]
-        successThreshold: ENC[AES256_GCM,data:9w==,iv:ocDD7o5eBD4fm5v9SLkToFB0lL8ZBODmJltxWMzgazE=,tag:AurZo+32PZlmnBISbYq3gw==,type:int]
+        enabled: true
+        initialDelaySeconds: 30
+        timeoutSeconds: 5
+        periodSeconds: 10
+        failureThreshold: 6
+        successThreshold: 1
     readinessProbe:
-        enabled: ENC[AES256_GCM,data:AYX3Zw==,iv:q2IKAsbASv48cZoIQJ6CyjAP259arRc4w9rkwLVOICs=,tag:0y+Yc73aNtPZH4+n+jNdJQ==,type:bool]
-        initialDelaySeconds: ENC[AES256_GCM,data:sA==,iv:fnmM4L8CUWusFiK+TCRu8Z0yuo5BH8deuTZ9oS4YiYI=,tag:xKRqBD4ny4h1HZ0SSHjMLA==,type:int]
-        timeoutSeconds: ENC[AES256_GCM,data:pw==,iv:oYe/UDwQLfanY8+CCw8MQsdafRqyVEaMzamwg22K4Nc=,tag:HTTo6dBlwkAchE1w0kNJ/A==,type:int]
-        periodSeconds: ENC[AES256_GCM,data:Rg==,iv:TDBEO9M9ASBBhZIn1Gmn2PmjucKPWmSEDcJX6JC67/g=,tag:XM3R2oNUckCih68zYgoY4Q==,type:int]
-        failureThreshold: ENC[AES256_GCM,data:HA==,iv:fXGp/fsGH+wX5uRQ8zZP3fOH2ZkMF2Y9AGJ61BZT6MY=,tag:e4AIru41G0kH1S4yT/GpSg==,type:int]
-        successThreshold: ENC[AES256_GCM,data:hw==,iv:jZ16fECmXAUQ8wHH5SBqrTRUYggxXOGxH0oCvQQpEHM=,tag:BFhOeCA0V2v6+SItBVGe8Q==,type:int]
-        #ENC[AES256_GCM,data:seBn96E8wxdGO78LLeF/uzlIoOIFkgI=,iv:q4AQrDwxegTdIaj1Get7CIZkjuFtOZb+9pO1X+hACaQ=,tag:zrHUuv263M0/s1jrwd+9ag==,type:comment]
-        #ENC[AES256_GCM,data:ww==,iv:vUgqM2b8Ef/QexEbw4t2P5nQ6fTHgfxB+bk30WkRKrY=,tag:PqgAdyH89Dh7C4sI2EmhIQ==,type:comment]
+        enabled: true
+        initialDelaySeconds: 5
+        timeoutSeconds: 3
+        periodSeconds: 5
+        failureThreshold: 3
+        successThreshold: 1
+        ## Custom Liveness probe
+        ##
     customLivenessProbe: {}
-    #ENC[AES256_GCM,data:SEm4qFSvDSpj+0lkM0B27wBXyU4BlZI=,iv:WovDuZR7lgOEogOu6njrmg/GwtvvYduvbgnq/IqoHhY=,tag:V3UP90tGHKU/vQnlIhx/Gg==,type:comment]
-    #ENC[AES256_GCM,data:kw==,iv:JCSHeaZj5YmTrULBWR7y0wXnKYmgNYbCXRhmBg7ctdY=,tag:Ckk3kGWl8RpDMxA28e/Qng==,type:comment]
+    ## Custom Rediness probe
+    ##
     customReadinessProbe: {}
-    #ENC[AES256_GCM,data:dk2n04IRCMivvv+QdgpQl0R2NTY=,iv:iOGNLxAX4kfJmboIvt8NeQIDQcjuQ+sUSr9lkB8WCKM=,tag:spwH3lICNJQzJ62KmNYy3A==,type:comment]
-    #ENC[AES256_GCM,data:Ug==,iv:fbW9s8kp2qlackay6B1FHOkcDM837L5nl2xDT0zShq8=,tag:sIBIY/us9FMKUESlfMdLZw==,type:comment]
-    #ENC[AES256_GCM,data:ugOLAPZl5D9LwiZ1MZPOWU3zqFHIKldH7M0dowSEsjAcLSRSUaGuR4PSNUUZwEl4PZiFq0UEXpJEJgAMiOLOuPPECuKtzWhX54V68ULYXZeGYrJZz3DxZ0bn2UitEw05KXDcuyrohO79wW715KlrOpG/1HZf/1RYS4lxnE84NaOxkg9yj07LyZmeo4MZ+d08v4yRxUNEdz8b5OHA2en/xAME7LKZlUVc7o+LM14l6+srV88=,iv:/niHcygtJOxyUerV2T/XIMnsOzy/f6eeh9frpLfETjQ=,tag:aAdda0sddQ+mCCL9fNrqHQ==,type:comment]
-    #ENC[AES256_GCM,data:yaPZDaj6acdGBKBZcBSQ1EUm3uAlAhen5iaMSGb41U2LN/83Ta5smhMRnPYXCkQmWInkWRm91l+gYQsOv/+nDhxVQyX4R8g/tpVS8z9llZBsov5AHildrKxA156q29VMd0EGE+ZFPXGAQsXskzfN+ND5cg==,iv:8MTPIzIsz8hOgBGKUNIjDuha0S5YWSIZO+5ipmEN96g=,tag:6Q1J6ErQIE4UbQqTuSX2uA==,type:comment]
+    ## Ingress paramaters
+    ##
+    #ENC[AES256_GCM,data:s6td8apqHNnkGlf0+yObUTb5bv+vUcaTxtb5VOSWm+nL48/srENhYPuotw+sGDWhcQ==,iv:VYb2R+o0VjDuSum/L3RlnAidM+a0Vb7zGtZKR40Wfic=,tag:Vv/w/8r+/shxp+f2X34V4Q==,type:comment]
+    #ENC[AES256_GCM,data:SQ==,iv:U+Q81az+xcb4zh93dDkSObMfTKOwPWjJMuh8kf1mr6g=,tag:54gZDdZYShZMp7PV19XHPA==,type:comment]
 ingress:
-    enabled: ENC[AES256_GCM,data:Y8dTTm0=,iv:StEfeeea769hI0vqNwGOokrtammMtlVJLY6l0DmfJAk=,tag:7xpH4/9DBmI7y+G86eJ76g==,type:bool]
-    #ENC[AES256_GCM,data:FGWuZU1L4QTQ77OTnm7Mk3fB0B5XUuAJeKPR5WMxGNrBbNCxReq3QlOiQM6GrVegH5d0CzW/SrpqYkRfs8+P9VATOlkqZ0PoQ54XfohP+2vj,iv:HdF7+FEnJ4bHx/C24mXOSpaKwLYl4mj33rmGuaPzEuc=,tag:wJ5tADpcqS1zKTfuyNOduA==,type:comment]
-    #ENC[AES256_GCM,data:/Q==,iv:SQWUb+eA0Jk4pJ6Hly2SJWiZIa6NtyXHJMInQCwB+1E=,tag:wm4vF6zfSAP/WNfCc7II4A==,type:comment]
-    certManager: ENC[AES256_GCM,data:c7slX/0=,iv:9sUh1jAU1qxYKQIZaAKS6qME547CnTa+gWAYUAET4dw=,tag:BcWwk4l0EuuJrtagQS9L+g==,type:bool]
-    #ENC[AES256_GCM,data:9Df7Pq1Pzshx6JIBEDmTS+Had3t6GOIHhZ07DP0HGRAzdV6MdXokOYC0E+CEjf9P6N2Ikr6n9XmEouYk6JMTYi705hXaLQ==,iv:4jLCGCWzA+EjU2y7JmhZlogZu7VpVVQMGAaD8pQ0gnU=,tag:OVmf1cc5DxtN5tmD1UR7+w==,type:comment]
-    #ENC[AES256_GCM,data:1g==,iv:v9RlYwIyPehdE2OyGcTxLTtMjLibJq7K1RBIDtUOZxU=,tag:EIWDOi3G19S6qM+T4RvLLg==,type:comment]
-    hostname: ENC[AES256_GCM,data:qMOpknrxZql9Ktb37A==,iv:IFjgohppbBVRI3WCYmu+4cEs0fGgkaeWLq8RrRI6jq0=,tag:DSIxKTWlnEkzP/cewRn8uw==,type:str]
-    #ENC[AES256_GCM,data:WGs2iP30k5RhRAt82C/egQK+2GwmihhHolddVO+4HnxyG35OT+Qgzt6GlyVY,iv:Py40dQa7T1JSuubjFZoOoitf2+7JIk1Ib6g4L3GJ3Ig=,tag:WmhWLemLx4WCt/zYA6zlXA==,type:comment]
-    #ENC[AES256_GCM,data:cxGo1j1uRiXHV/3QLlct2v37q+IAUAciG0MIYxrkD0E6BAyUACzAghq9ApGxT5DDEg1VGDK3LsLKx5TGug==,iv:rNxwRN7HFkRnmA6GWm3Lyp83Jzbe7pNGTNeHu4k3Xno=,tag:1zVifBJox0FkftX2bZxXOg==,type:comment]
-    #ENC[AES256_GCM,data:xAmF6mBCZhPZAv5gK3+4hh5eRMUEvg9V8NHXrmi8nspnxnvQ5Udrfysg/wHQZC66uYwdMe+UDZMEbWjcnI2OT1R2JwSjFO6wqfHep9Vnr0FFnVXcceV4YDUKHRULZ6xVAwpJo7pZp+3lzHOqlKTtv4w=,iv:GpC6QMceqF1ait0HS7KryAupsgVrn1K9K6kXWDoY83Q=,tag:BXt1pt2bcHj/VSYDU1WOkw==,type:comment]
-    #ENC[AES256_GCM,data:Cw==,iv:xNzM+jHpeKyTharvEzCGuCSo7/FpyecWucIUZkzMlyU=,tag:+WWzu7MBlDU1F2PERcZ/Sw==,type:comment]
-    #ENC[AES256_GCM,data:TuZGfqT8+9vb3XBDoa4AkKeHH+ztRR2PZm7L8qcIOCa/buMg68npEGljLu71lNRFxEBKqlcFCqdzYcBW+3j5r3oJ5cqIvcK2hBth5MQ0vKCftRzQpxe8iW82rMgbcLrWtUqwag==,iv:6q1q59engZHiZlAzdaLg+OLkcsC0RHZx9KMkNCSfSAo=,tag:wxp+jRILdBxmlAvoGr7IdQ==,type:comment]
-    #ENC[AES256_GCM,data:iQ==,iv:U2mjEKg79Q71oGTSm0Vd1D0liqtOgYaKpzyiQD4fnJg=,tag:2dFzbWXm8zNbmdrbpF76VA==,type:comment]
+    enabled: false
+    ## Set this to true in order to add the corresponding annotations for cert-manager
+    ##
+    certManager: false
+    ## When the ingress is enabled, a host pointing to this will be created
+    ##
+    hostname: example.local
+    ## Ingress annotations done as key:value pairs
+    ## For a full list of possible ingress annotations, please see
+    ## ref: https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/annotations.md
+    ##
+    ## If certManager is set to true, annotation kubernetes.io/tls-acme: "true" will automatically be set
+    ##
     annotations: {}
-    #ENC[AES256_GCM,data:3o7vDyvzoxSpnPoPtGqwDy+xY8DKxM3JwKNEKqY7SY88NEpIBwnrwqN0aIjrQgX3p5sr/kbZa8PqBompgneWJCrtyizPB1ycbamgLl3xYRzz,iv:JLSGgsADlIdeqdM22BshhSIfSvb9CZjBdzIMygyC87E=,tag:RTwm6UXGLSJZxrTlvp9nwg==,type:comment]
-    #ENC[AES256_GCM,data:k5g6XPPxenwp5t6yE5nO8r2AIUAW8uPIwbYx5uvZTNQ4tJ5tATtMjQNn63Fr0y4C/VVTSyULiJ49OgPqI5Y29ZkAC5ajoNqP/z6mXb/UmpUs2+hK19cAXul48ElE+qX8eLq5HP0kovWiF8fRhTu1BUU=,iv:ge9X8Tnd7wdoEAWWJDIBiazrsj54iDKQEBt8rDn/2Ls=,tag:/PHMBErXSNqFFBM6bsLi9Q==,type:comment]
-    #ENC[AES256_GCM,data:80M9nqI0/yVFOAkzyhOw7M6vHicDpWkazWN8F8RpX1frkjbVnFRi+GhMl+Wylk5KMp3j33YZ0/BkP+Wu9nybjwD7VijcgRFP8PQCLZ1d/7N46O3bqxIqSk8pVREBLyH9hNJ9UItZnQwKE0YkdA==,iv:w/Y3q5jRKXkKpMH+UC7pJGrzOAISqygrDF7eu7hxmf4=,tag:kN7O7TPKhnxT5yFqlU66kg==,type:comment]
-    #ENC[AES256_GCM,data:BVZXFkWHxjWi9dhidN48k6WYlXE8NTnKV8OB2gszyPtslq77UBdVAfcmpQL81eill2f6UmlfGw==,iv:CvoHH9Bc4+sFJe+czpMw3mkbrDHO+TsrupbpLfPj+So=,tag:HXccpphs0CEAWqrONmDsvQ==,type:comment]
-    #ENC[AES256_GCM,data:Sg==,iv:LLnU92ifvr+yIQSmsHZoI6BHozb7z8hDSRsp/h6uoGo=,tag:RbqHlmS3tOQO6D2mzyGE1Q==,type:comment]
-    tls: ENC[AES256_GCM,data:LhBhPvg=,iv:wJSAr+Kls1sor6gHrs4h8QngAVHQI7Fm4Gr9lO2d9fg=,tag:2q4rcOJxN58eBdLYy7pwEA==,type:bool]
-    #ENC[AES256_GCM,data:41HnJATIybg20ldxoo+hcy0VDhChwGMhj92G6Ac5ZuoLp3FlgsDKS1oAiJMJUHnT6tJLKsAQknGkWNf0vezLM8BLZksauWORlLs=,iv:84o4ko/SPZXYmNrtCMYNuV8X8F6ycKehsl9ebSAKvlU=,tag:s/CkeqgxyNIcalLH4Fg29A==,type:comment]
-    #ENC[AES256_GCM,data:OBcmzD78Q06Lhv646PLRs/5SlPtRbzcMbe17gS7RwhjRIHCX5P4eQ3X3m33RrEYIDobxJYGG2sshq3CJTBOM7TmYXaF4qVS8CCYrcY1vzK2oX+y2YddiRlYgIy008dmF7aOXAWuUIC7N,iv:XSLNWNTMlQfwWBvyPgOOd2FQn99KEPKcd4PWPB5Md2Q=,tag:intnPAfCjC5yXVV4w4miNA==,type:comment]
-    #ENC[AES256_GCM,data:1lON7Blc,iv:1BMnIORoSR1lpXuUqC2geDTWKsgW1D6aQ+Oy7sTxKt8=,tag:VdDBVaErlXFnxnxSmHmg4Q==,type:comment]
-    #ENC[AES256_GCM,data:oHGdZqX9gWw3ff/ePA==,iv:YGvRkuPQhxzk4fGGrxRkjv0DCsJ9r/4iSKJJjkcWz6I=,tag:SDsz0w3EBiUP20HFmshPqg==,type:comment]
-    #ENC[AES256_GCM,data:8umbRvrp1txX/pUbjLVEhC7nNp+5j3tg2A==,iv:AA4S33/XdvESJZQElQgGmadtQtzHcrPrn84/wm9xeBs=,tag:Ma49AddThgrDS/ybbBUXJA==,type:comment]
-    #ENC[AES256_GCM,data:CndCov14onnn/nODqg==,iv:FxiMAS8DUI3rDE3+vq2htSPwgrDB9ot7rFjkmCrvArk=,tag:dAAcCLCuAB9Lgja1oloKYw==,type:comment]
-    #ENC[AES256_GCM,data:4A==,iv:wGmK6ABI82o0yL7VQ0ghZFzpYmEZ5Nnu6tqkw0N5dOk=,tag:780ogS2HWv7yABwHg/rpOQ==,type:comment]
+    ## Enable TLS configuration for the hostname defined at ingress.hostname parameter
+    ## TLS certificates will be retrieved from a TLS secret with name: {{- printf "%s-tls" .Values.ingress.hostname }}
+    ## You can use the ingress.secrets parameter to create this TLS secret, relay on cert-manager to create it, or
+    ## let the chart create self-signed certificates for you
+    ##
+    tls: false
+    ## The list of additional hostnames to be covered with this ingress record.
+    ## Most likely the hostname above will be enough, but in the event more hosts are needed, this is an array
+    ## E.g.
+    ## extraHosts:
+    ##   - name: example.local
+    ##     path: /
+    ##
     extraHosts: []
-    #ENC[AES256_GCM,data:paolGDUAzOl+djGXOS3Y6R+4l9cynjka59HAD90bf+OnWutJKL0bgOKNIbz1BiF5Z8ZanqNef1nje6BUyYUrS1Hhn61doLwgmiLWigpNtn3nuubSdJY3bw==,iv:JxmyFjVWo3k+4XmqnFr8KwyEKHsMOyh3dkVyVI0PEBE=,tag:Rv0ArZH9vPEy2SNlppcuoQ==,type:comment]
-    #ENC[AES256_GCM,data:rs9+miFWV05+nUkoxKyG4pgEofqOPWtuvszYq6VYdJp4Z/L5XNE0T2uaMdAxnXGTkfntGIQrSqpGgNZeeYOhefKMl17vP4O9P4VW,iv:DjlplxmN4DGveCWatxOxf0N9BsOUMQeb2r58XTXcMcg=,tag:gjvWfsa3H/kddp9IJns/+Q==,type:comment]
-    #ENC[AES256_GCM,data:DyuCWbHY,iv:o4qWTZn79aFsUaDBoc27XHLpi5tBzyFKMtK4W2MqF8A=,tag:vmHdXMzscmr2/tB/s2+TDA==,type:comment]
-    #ENC[AES256_GCM,data:Ij43e/79d8H0hnk=,iv:zvWOZil6Pomd4PV2jcqCHP3q9jQbFkRXFyQZdDWZM18=,tag:kNczqWn5qvhQZNmPZplu6w==,type:comment]
-    #ENC[AES256_GCM,data:E1uYodFZmkSHVOR8,iv:TzZZnNTUcGTVebT+9qkkfI5Wu1VCuYzIqeP4UxzWetY=,tag:yrpyELici8mn7bkHTAqjLQ==,type:comment]
-    #ENC[AES256_GCM,data:4LzRw9cvH75srlyTLZmZ4iKxEnrgOZM=,iv:8YLMWfleWnJaq8x66DhVFoIY7TbtAzxBVyejQNpwFEQ=,tag:YNp3O87meqP2tM7VJ+qsLw==,type:comment]
-    #ENC[AES256_GCM,data:xmcQNtVLvbCtEBaDzBMMdExnQyKNG3D9S2oI2cJjDNW8FpM=,iv:k8s/1kyj10eyIHusJNMbNRN4zIEz12BjZUL0A7blVLQ=,tag:qRhlksp6fPfeMTeO4X9nfA==,type:comment]
-    #ENC[AES256_GCM,data:/A==,iv:KN6ADYcvlGbWUQuED/LZYhEYtrx2an1j99xKkXCogqc=,tag:o1i4tHnvl0zP1U/d4GcdMg==,type:comment]
+    ## The tls configuration for additional hostnames to be covered with this ingress record.
+    ## see: https://kubernetes.io/docs/concepts/services-networking/ingress/#tls
+    ## E.g.
+    ## extraTls:
+    ##   - hosts:
+    ##       - example.local
+    ##     secretName: example.local-tls
+    ##
     extraTls: []
-    #ENC[AES256_GCM,data:nE5DbHo7wpJXt1+Si/nXDPi38tPITHYwx5wzzvF5bGrf5iEnfmMYfNaydk0ciBNuRUQ+N0aKLFGKk2gNi/0am1zI+/9dg96O1AswaTMm/EckSPq18wUSlRWAfZZ/adg=,iv:Db9Ax9YB7yQp7qPDqqp1VUKzkYjAPFoZm87upDq0uc4=,tag:8dyI2Adh9FSfeWsGcOf14g==,type:comment]
-    #ENC[AES256_GCM,data:962kh+8sMwRNKkwSAkjst9mj7xAQ2QlpPAgLZnAMnTNWo7NcdLlE7LsqCZztw9HIVoF6M/JjqgVHpqJjNZDc7eCPHjh3RfvHcK6FAJT+Ig1q/GI7piArsK914Eq1X+x5qPLmvDZs,iv:OK21pRSXbM8g6Dajep45glyZxH3aMSCUmMi5YUH802Q=,tag:gvEKq8LB8UpvtmgZQER1xw==,type:comment]
-    #ENC[AES256_GCM,data:ErsfCC6iYEEJM1Bt64ehGK+EMExIxosz1pL6Gy3q53gjimt2CIaRYTezUFSJpkgRds+xbSFf,iv:pLbXyn78TWEUTB71t7Paa/tuC/FeKZ7zIpzVmU8aCK4=,tag:HsEY8KEyBLBYMmsP4O40+w==,type:comment]
-    #ENC[AES256_GCM,data:dEho48ieWaGZIz/RX2+ZoiBcR838v64hNP8DAZ6SkXWIKVCThgju9VTgCgL31IM/Z75Uv/AWbhJts+bdMelPV9MBRNAIBv1j1V7OtM84/kG0vjqUW6wbhv8EhFByj5v/K0DK56u4APk=,iv:HSpcfS+RAJQPk8NSdBXz5W5op7oAe11oeFmTZ32Ureo=,tag:0tAp9bE2wCQ2AVMksME5oQ==,type:comment]
-    #ENC[AES256_GCM,data:GZdWPhPaJvl2EbeggDI7hGbLKtbbtQmhna/vQEstFJ/UWQIEocTsgWI7Ye4ke+SWZtk1xBxagYV70M9MfB0CahD6fShAtzttzm5B4nLAU4vRpwU2YSpI31w3VOSgq5uX7YXcrGw=,iv:3Cp9f1iyO8Bbj9TBoKkSRX11yzXq3+TZ+LfQ6u8PB4c=,tag:QbxhlFzUXf6Eh1uqD40kiQ==,type:comment]
-    #ENC[AES256_GCM,data:SNOzw+WmnHvqq7HBaUh5bhEgC0tS8ng5KWE3Czz/xPcawca5ZPC9KSJ/H1lzRb7zQtqqs0mdoiOGms4VQGKkdBA8+aNZRkdHyKr1IgBb/FbgiRdZiMU=,iv:n1A/CQyTJ92jv/Aqnf5rehGp2hk1UY3UslV3ZuFpZio=,tag:uyd7dOfFnrNOUgqFREd5xw==,type:comment]
-    #ENC[AES256_GCM,data:Kl8oAm8zXe9IbV8n1Kev4gp7o81XeBnsfJI3hguUABvT851UCoI0fUsrfQ==,iv:53y/ZcCw2KC5jOUyI/sN88E0s+yrSFiOipwZg5eg/xU=,tag:QTmWLsPEpudrkyUpHo/LPA==,type:comment]
-    #ENC[AES256_GCM,data:bA==,iv:3gYUcW97LyG6its1gSemAxYBc5PrFj3L1nKvkdFjooU=,tag:u6p+DfYyS35+PpOh6K9jpw==,type:comment]
-    #ENC[AES256_GCM,data:d50lTy+q,iv:VWcPMRVqbi8qGjD2BfHuZndgK63LPAfhZURDMnmpKC0=,tag:7fc5X15yC6VQI54jJVOt1A==,type:comment]
-    #ENC[AES256_GCM,data:7ds+ip6NsEXVNg==,iv:nzC5M4x/6g7CfIDvcbVOZ8GqN+R6/haSNBAB8OnN2W8=,tag:QKC3p797sa/d5WIQOpzMkw==,type:comment]
-    #ENC[AES256_GCM,data:12hTwp/+lUpiXG39YAVop/zNHhdJt6jdfB8nMT8=,iv:tLhj0O8hwcb0UZTeUm8kPUoHBlvz1//1J7UqqiAicjc=,tag:pn+VbArcDybLYaJxq+4kqw==,type:comment]
-    #ENC[AES256_GCM,data:DAvqKTYB1qldbQ==,iv:KLuxqQSAONzgWznq6NU40VhPDVvjg2UbWSOEP4qkfOg=,tag:8ZQZ8QRd9AYoW4f3t8pBcQ==,type:comment]
-    #ENC[AES256_GCM,data:sZTAlvbJDz9/ygEazEz9tA+z,iv:i9pDOETctZ1Boszr1gaamNTkB7pPw5iGdldK0hJ+3/8=,tag:fcoZepaJG+EcvOY0E3ckPw==,type:comment]
-    #ENC[AES256_GCM,data:+A==,iv:I8hE4gETqUOPH1YkZAH4FhWTwN2qE9yu0WJ8CoMqQgw=,tag:MbHxqRUHr0CpBvLjiMK4QA==,type:comment]
+    ## If you're providing your own certificates, please use this to add the certificates as secrets
+    ## key and certificate should start with -----BEGIN CERTIFICATE----- or -----BEGIN RSA PRIVATE KEY-----
+    ## name should line up with a secretName set further up
+    ## If it is not set and you're using cert-manager, this is unneeded, as it will create the secret for you
+    ## If it is not set and you're NOT using cert-manager either, self-signed certificates will be created
+    ## It is also possible to create and manage the certificates outside of this helm chart
+    ## Please see README.md for more information
+    ##
+    ## E.g.
+    ## secrets:
+    ##   - name: example.local-tls
+    ##     key:
+    ##     certificate:
+    ##
     secrets: []
-    #ENC[AES256_GCM,data:476F1XHu+etwBtBOVNBOIui6Y0v7SOmBvDvt,iv:JbdEBU/BpftlJ9Y/EDTjJeVM/aNpk/Ic4JFoclFnAlw=,tag:bv6Xf6CvufhoRCKBFVxAMg==,type:comment]
-    #ENC[AES256_GCM,data:QQ==,iv:dXU1GmmiukQHXJAb0/DPFnR7wfRcoHbX997dTLJpqHs=,tag:7Bb7nWsf2bpacCduYy+iQw==,type:comment]
-    #ENC[AES256_GCM,data:VF3J660V9RucaQW07JnXM2Oj9DnU22hJgXnUI4YkYbjjY0z10hqOCadDEPlLI9Im85D6xRC7mDTnElxB6XO6mxH0bG1CQHIRCFjS0Bmn8pFs9Bf57QO426QfNjqiqjoGJ1DtzCWFK8zPrACO+4QrhXACZlE7+gaQB09MrhNCwXe4m1vfwjaUa2Nf1JTBiH1YcdVq3b9YZHwEFWhn3G4ejNhTSeSZVZjyyvXoj1Nj8yYSIa+En8Z0PTrYLg==,iv:Oa78S/P/lJAzT0p+B6qQRBsrpbRdunt/oqQxsN8EG00=,tag:P7eX+91HDNIEm7FegFbsFw==,type:comment]
-    #ENC[AES256_GCM,data:zOpOzHsRCpKc7cyUFdeefMDHkFUSnbJ9YIF2Xb+NUHwCvnNVIVsVWX6CFKGIZs3f97tdh6S8Vh/6FBgFD42Jzvt/m48GeyyTq9R1n6W/8IWjEOWU3FtWK23eQ8/BvGadaPSkvGEMoL26/wM/wUFWslRQ2Q==,iv:YVncMzZ6lkw7MYHa5ocYMO+xA1AepkjkkiB5U8u5AUA=,tag:bDVZ/H0VWuZYDh0+csfc/Q==,type:comment]
+    ## Health Ingress parameters
+    ##
+    #ENC[AES256_GCM,data:DJ3tuCRqgwvEleubMl/XCmRl1BuM66SJV9aTUm6xh6ocZLkoJ6T4Q0mhYozaew+qDJHLGwlo6GI=,iv:3RFWq1fzMAilS0QiHlHMBo1PR60ApMhaf+ftdyyiv7w=,tag:0c4krWYDc4WHollVCeenSA==,type:comment]
+    #ENC[AES256_GCM,data:jg==,iv:yq5cuVEiDI1WNZNCzJgJkQc1MSFJi7JRhuWc8RsyMpw=,tag:Y3LUMLDi5/ok39Dc5W7Vhg==,type:comment]
 healthIngress:
-    enabled: ENC[AES256_GCM,data:nH25VRQ=,iv:h2Y+moNW+MIGOBHXhORTWytx3DrPjZ4HNoet3++h8Kc=,tag:eImb7lAptTidiY/rIoPT0g==,type:bool]
-    #ENC[AES256_GCM,data:bbF1SLLmbTNU+h7OSxx3upf42fGzsdS+fAU71gs3ArZTzIMo8+wxNtC/7qJc6urYKejvBVdGigrWz1DDWjdJGlZ1D1bzyruNey6jjRHKqS1A,iv:toMaZQk0ZJpbPNrFFAPFbq1BtvkX3e80Cr8NuhrZKvU=,tag:GLA0OJTtVBDMcm7mZHet3Q==,type:comment]
-    #ENC[AES256_GCM,data:oA==,iv:KaGrktkGhRvOehzgxXrfKgsWiKiXddSOdH6yj0AOK8E=,tag:QrQ47bqVoUYJcW1KwZKR/g==,type:comment]
-    certManager: ENC[AES256_GCM,data:ywVIztg=,iv:nNlU0c/jSt+WhDCbaYHt8fj/AJ5ZEvQ4Fu1XColZLiw=,tag:hnjPFbK4bqzcUDiegCUMlg==,type:bool]
-    #ENC[AES256_GCM,data:MIZlaY7siMk/OcaPZrxXeZH3KHJMaEqdJnG8bkw0K45xeCT1oXOQ+oFgmavU+IIE8j7AjeKEARQvBnUJT9hHLUmoLnPTlwLDbUa2IPo=,iv:tUaC4GDSNAYThLEPJrHt8P0Lg8Cy3DDVjOZKwzhymrU=,tag:22rWZk3/FUXdkXRx99+DpA==,type:comment]
-    #ENC[AES256_GCM,data:5Q==,iv:VNp8ch/vMsOFLvFxkEOXCYNA1NxraUsu1LgjFI65tQ4=,tag:A1DF6rhEtjPh8GII8DCD0A==,type:comment]
-    hostname: ENC[AES256_GCM,data:zToFB6n4DDuy7dPphA==,iv:ucseTPN8fGPwcXeGmNfr1vX+4gNp94QhchL4fz1zF2k=,tag:gIxAAwMJAb8xjR+VtkrkJw==,type:str]
-    #ENC[AES256_GCM,data:lAYoZoLl1ZIkLxpiJahj2QK5Ypx6AvwvJb5ViE8AOCxXZBQb0t0cXRQdyFidYyV0Qql1lw==,iv:keCn/nGBt6g85MkEGnNYvT31OgqWN6JVAbAKZHVMHRk=,tag:9RqmANMpzI00naFE/DaeUg==,type:comment]
-    #ENC[AES256_GCM,data:4h1PAxgF/LB5hErBeI6MKj/tIez0rY7ChZ6D5xGN6ktrSa1pvO7T+dORxBNuUh/03OgutPkQB36U4O4Aug==,iv:Bb1AoU7DBPtUzclvBqA4Hw98I9dohqi0W3G/mrfL54o=,tag:c1Zs8J7yucBz4PqlBDomOw==,type:comment]
-    #ENC[AES256_GCM,data:qxcX/yrzCT4NaQVR2xSDFcaBVBeBGkIqa2/pZn/xHkRhPZGOoILimzXOyAk3cqqpIzsraVdeZIl5NK2ZAZWnROlSOTNftremoMjjcUEfTvTM64KLdu5f/Qm+hsyzOxPSjNjpXPH5Syo7XPAIpWZAwaQ=,iv:1iPcRkeMMdf4U4t42wFq828ini15dFKMZj5tI91HFQ0=,tag:Bm0K+6t1mw1JpibiwpI94Q==,type:comment]
-    #ENC[AES256_GCM,data:vg==,iv:jDkoQOJUlzXnpAnSXxDQJYbxDlyxPTiofPPEOyrBhW4=,tag:bLd9MgF75NXvvLB7HkYszw==,type:comment]
-    #ENC[AES256_GCM,data:n7CaK3bL+TAYoXZuBXoxHg5CB4/NPJuJj1fOvVZ9h46afZfF6q3pWgn3x5WzDFKQ+Mp44PzCXf/RBz3q+G6Zb9YKa0eDfvZJ5FhPNt+F0LzSnODZ3zStP458KllkfbRcasnMKA==,iv:QeaX/ydcehFHjqdzED6aAh2cUQKneKFxmUTxQ08z69I=,tag:v9cXwGMPpLnAV8sCKSy2LQ==,type:comment]
-    #ENC[AES256_GCM,data:Ig==,iv:9lbWGFv4W0NUpRhA0Ej+5AhcChCLbxS7WTaV7Bc4TZU=,tag:6U6o49Y3ZMWzVl9El/phEQ==,type:comment]
+    enabled: false
+    ## Set this to true in order to add the corresponding annotations for cert-manager
+    ##
+    certManager: false
+    ## When the health ingress is enabled, a host pointing to this will be created
+    ##
+    hostname: example.local
+    ## Health Ingress annotations done as key:value pairs
+    ## For a full list of possible ingress annotations, please see
+    ## ref: https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/annotations.md
+    ##
+    ## If certManager is set to true, annotation kubernetes.io/tls-acme: "true" will automatically be set
+    ##
     annotations: {}
-    #ENC[AES256_GCM,data:bsew4mEOWfFXIkSmdJYL1LFFzB7CYcYm6iYe1YcOtzJ8R8wjCjgBZh6kbKA3xRSRoWGFSdnXlncolcTsTAyvZOCrhijWtXC2NCry+Yks6ZKcoACxrmxW,iv:h3QEMh507IQIQQ0ZdBLB0P7szsTi5OWOSFg0/BUBIH0=,tag:Ya7lwpP18P6XNGiEYetyPg==,type:comment]
-    #ENC[AES256_GCM,data:4YAjBGVwOmIDpc7UzrNxGw7VLkeeSYZcuzmAt23Uezb0ySWKNAB259qcxHyf8SZFeqJ06EiSuUw+s9SEqTmfDovJrsIydWzC/YW/PW2stEIxQ0OtecAlwFLJ2KEy7iXRWx7N5QqodOB7zqTYjjo2YtZfLQ5VGgo=,iv:zSK1PAI9SOWLVOpG1VuEgbQw/du+pugLKXYyGvEYZPM=,tag:tXqh1yg4anHGUiHwluakKg==,type:comment]
-    #ENC[AES256_GCM,data:6dxduEUwnxN4lMrm0KLFC7eXlDzSvse6blDlO6DA2GLYxYvPNNHeUsRW1UUkqRvYOg+WiUSpB1TIJq4AoD1DikS2cJV7kj8BY0KGeUQ3E0ObSEdU4eEQ60jH9yuePkTaNWEqzyXkoK+MDhFzjJBjRFXf/g==,iv:bNa0Bm9SY4GGo/WHoDu79e7zEKkSqBcDq9SbDoD7KhM=,tag:4JfrKC/rdpx8dvSzcZk7/A==,type:comment]
-    #ENC[AES256_GCM,data:+NI+l2fG8GWoX3it1BMq8wHJ1d2rbtdI8cd8bqh8ByUcWr2NAqB2bOmiC6ztQum1NjrgIIPwcg==,iv:YCspUD34ejOuO3EjPGeCJKhNi8mDomkfARfDcHeX/MY=,tag:P6UgimTBMskzgUDg75f+xA==,type:comment]
-    #ENC[AES256_GCM,data:aA==,iv:Vlq0oelyp6ZeOa8vWVXvDyacK09Lpt3p+cqDaIPs9OM=,tag:37owDvM7DMbAIMWfIqSmbw==,type:comment]
-    tls: ENC[AES256_GCM,data:lWki0TM=,iv:M1gfU5rrNT3FzyHHJeGiOHTHr3KofIleGvQ/NvNXg0Y=,tag:ydIbh1FOCB9dyW5RtqCwxw==,type:bool]
-    #ENC[AES256_GCM,data:POCtgHPguuYqqxDHubk7Aj66J3I8nwlf/JyYnhz86gSBaVmdvNfIaQfu25CtMwO18eCUVPjs+MM7F9QqqsoT03FOYa9uDt7y62uGjXmWWIxo,iv:3sW26wYt1MZiEci5MCXSNyJroFZY86bu1JsVITyakgA=,tag:evP+xl97D1uCIrnjXL+CdA==,type:comment]
-    #ENC[AES256_GCM,data:FMzfAQX90LhGv1Mpm7GQRl1MVthKZrce591UWBRyCzaXUZFTX+qqEkinSoONPBlKh0qyxCWNY6xwukWQJU/xsco6s1zjQXF22WzaXWEo8AluypNMYRKKyeTMiOsHeKNPfxSJ8+jV8yTN,iv:+lEkoqXgDgcVi/twwt8Db9IOt3TnGN4rqCrRZQxHvME=,tag:no0anREfWHlgwYdwyuBVSA==,type:comment]
-    #ENC[AES256_GCM,data:IUXu++G5,iv:7ISyKDOh1b961pYseZcUFCyI5V7gP+YWKS/J0uzku0o=,tag:G677yDP3tWTGIFQN0/9RLQ==,type:comment]
-    #ENC[AES256_GCM,data:bBwDgLnySLdCil5yNQ==,iv:/9bpPGOP3DgeLfCa6oBVK/6RK6//fvcTclcGKRx5wvM=,tag:ER7WXm4pivM3UxpbG3GUPg==,type:comment]
-    #ENC[AES256_GCM,data:j+IwId+VmsJGMPfPIRaSsImo6QAm3M1rPg==,iv:/JF7ky0bfG43vDGB+Z+PobqIHSzW4uGsJwT5X6TwpGA=,tag:dbumpGXAqZyPlBWQhAr3Eg==,type:comment]
-    #ENC[AES256_GCM,data:f8+sifWmOVYcR1fZQg==,iv:EKJxopLLp8igkZa7yItzB5RRlar/GfOe6NEYDOIs0Dw=,tag:vpTUzp7oGD3GAcKGYCdlAQ==,type:comment]
-    #ENC[AES256_GCM,data:LQ==,iv:JZtwT6ElC91WcQVvom38iyLikP/sDZZW/h7qGW7nr3g=,tag:HrgnehrKcWFH0OojuoJsQQ==,type:comment]
+    ## Enable TLS configuration for the hostname defined at healthIngress.hostname parameter
+    ## TLS certificates will be retrieved from a TLS secret with name: {{- printf "%s-tls" .Values.healthIngress.hostname }}
+    ## You can use the healthIngress.secrets parameter to create this TLS secret, relay on cert-manager to create it, or
+    ## let the chart create self-signed certificates for you
+    ##
+    tls: false
+    ## The list of additional hostnames to be covered with this health ingress record.
+    ## Most likely the hostname above will be enough, but in the event more hosts are needed, this is an array
+    ## E.g.
+    ## extraHosts:
+    ##   - name: example.local
+    ##     path: /
+    ##
     extraHosts: []
-    #ENC[AES256_GCM,data:l6kv1e7fcMS/T8mrMV4KdWs/QoU3U/JWMAHvLN6yinrjkkZE8lZA6PNvbLVlKl0g8OClqGl+GgInKjVdcRbb+n0IrFy7UPRbMvvYdiPNT0OQm35Kahl8+/aFAy63oE0=,iv:VpFVRlOZcEHzdMyORGjiClGAABURPJoRqRCaULrXcSU=,tag:JIcrvLcrbLD97cifedjIRw==,type:comment]
-    #ENC[AES256_GCM,data:iE8p6oplK0HORfhHglOAQTk5FP5rGVfe4cWvkfhTAL6BqZhu8kKkJQYEVBYP13JP9u03DXV/FImst2T99vLKzD3qvB/vIi/naTTh,iv:rMLNkkh6EhTgM02rQcKO5ztu0dv3yEyHz4COG5/ThKE=,tag:5Ni5mKRCXGUDtdqIrnZhBw==,type:comment]
-    #ENC[AES256_GCM,data:877SzP01,iv:Zv7UPdYT0MD8m4q53YBAG7lrx596FI6N44g/8KT4yEg=,tag:TKaQ3E4x/eEjMPlLHUrDyw==,type:comment]
-    #ENC[AES256_GCM,data:2yvjXDtqvR8rw9g=,iv:3fvSQvpH35GyA1flHhQLj8nASIvCcPSnBKY6g38xO60=,tag:E90OV1+GMVTKB01p9Iq30Q==,type:comment]
-    #ENC[AES256_GCM,data:xigHePBXY4UvJ7UA,iv:5UZEOVK083MMu0L6Mj2VyKFQFX6Lo8b6ER7JBPEbg+A=,tag:mWPX9v3ZPn0T+OsTpdRI1w==,type:comment]
-    #ENC[AES256_GCM,data:hoWOEc1P566a1xqlugoTv5Msp10iWkY=,iv:zkgkyKvu7ezzoJbO+LAJoRR8fodFur7zKHrebGNm9dw=,tag:7JmVFujvC7u8RjIYsNx5dw==,type:comment]
-    #ENC[AES256_GCM,data:pyduLHyAQ/YRfPF1pJ5SjHXZbR4YOcsRONczM0i1ESagf+Y=,iv:ovqaG6lhni99fHsIU/d9A03NM8yjqJlVDzZHgnqPbi4=,tag:KIPaVeqCZavnFeoyRfa/xA==,type:comment]
-    #ENC[AES256_GCM,data:sA==,iv:vreXQKDlNBwUT+sJHmshJQmYDmiaw9eZIBG0ErGmsB8=,tag:QrVHuxuVakE1dB1TJEHXag==,type:comment]
+    ## The tls configuration for additional hostnames to be covered with this health ingress record.
+    ## see: https://kubernetes.io/docs/concepts/services-networking/ingress/#tls
+    ## E.g.
+    ## extraTls:
+    ##   - hosts:
+    ##       - example.local
+    ##     secretName: example.local-tls
+    ##
     extraTls: []
-    #ENC[AES256_GCM,data:Wy+SjvwWMLceEtqRQ24ab24YS889UunXtQIX9vSbLINLrYmn8DafH+J7vxHV0MLNGdhOdLInqDdjfJfiNntgbhshTRWk0m1F/1LUMqSp7Sxe/9Li3s1s1z1ohbKHT2c=,iv:Fr5MMdL0gmqAfO3qPj+o8sREsz3Ilp/iQpI2osVxqMg=,tag:enmLYO/+Hcr8U2dNuzxK8A==,type:comment]
-    #ENC[AES256_GCM,data:iJFjuqR3r3+jPvF7aD/wkmtI7GfysLpxiAFu8EFmwPEKoVtEHxwKozYuTFpx0fi8UhXWOOhxNIqvtNV1obdiA1XMbdDtHd67ARJkx2+OWo2iSc7++1Rat1IvJigNAy5uUsM9sDb/,iv:MnHARbitwejACOTRlJXIWXoMKfRP3W5D9LYrYcNSrGU=,tag:5cl0nv/nIbqsBnXGESG0/w==,type:comment]
-    #ENC[AES256_GCM,data:ppeNs9Cc0gYJ5F58PqutlCJEsQDFDnjHsW4nkbMa0EOoM9izhT4Frc71cJXYDrRyOCym2Ula,iv:Vd8L1v16/6VbLSDuj3HHmZAJJkfvNDae35MKTYN+tDQ=,tag:wcqcSr4Fva02EB9rCejmNA==,type:comment]
-    #ENC[AES256_GCM,data:mB3tghj9f/eBvhTZ/KJKNsG0nucdpLBD1SGO2GA4Xzzj8i84/zs/fQ8pC9SXAerrmMDasYUP7ZB5UBEZqzikhrnUBvVOt5v/5M2NBEYWFNf3+naXk1u1yNC0b44QCH/kmLxIfzSA2mQ=,iv:NRd9AGCWElOwq1h22Ua8exSERea3WsGLv4K8g6N2XDs=,tag:JY+PGDdn+OP5UfyfTiaFlQ==,type:comment]
-    #ENC[AES256_GCM,data:62oCfrAM/AxvAnp0qRA8BN1xc6ftL1Q+n5mSLmQ04xb3bi5nr4RHROWU7uxQO9Ewgqu19s1hbEi7CmhyT3wYBta8bBd+0pXfQlJogS/BogGWG85zEKCyiX3oad7pTVXlFtBznfc=,iv:u7QdbFGKZCnUCgyJBwQeHH2/tPJfv5lS8YHZ9DqcP9c=,tag:JWUXHkjJP0sVYjCnOeFqkg==,type:comment]
-    #ENC[AES256_GCM,data:/0txf6fjQBeYkFiZJnDwMiKktNe//dX2zT1a7JkDxqm+4pRknFOr/xoRr6nlCd6ubwrEZEcqGZ0dRKXC4ecdjpgcJWZXEO0zeXFjFbJkOWI6kZrmZ3c=,iv:zD590DEVYKEitz2fnTIicT6eWGwgOWvSupgC/TySD8Y=,tag:/BATbVH4T7i6g16NC35hJA==,type:comment]
-    #ENC[AES256_GCM,data:97TBEg4Xd+e0/5o8trbb1fNK1p2bGQo5Id+wtNF6pDUAEcjKi5oRK9eOmA==,iv:RUdOnGy9SHsHUUR5C/A/1xI7SabhW0ENU8pDvBxPNmQ=,tag:2SFsqzLX6Iu7D7F9lSjauw==,type:comment]
-    #ENC[AES256_GCM,data:TA==,iv:E0TFcpvJDDIXeldLfbIi3a/4lKbxx8Xk4pwsE7ttG2I=,tag:BO6WlZIeNFrSm6Z4KddP+g==,type:comment]
-    #ENC[AES256_GCM,data:jpxtR2q+,iv:xH4g9RywXfWAoAfHs0fEAvq90XT+IUFSfFqu0SP1xA4=,tag:xthAT4jeeUc0Fcom4OGyPg==,type:comment]
-    #ENC[AES256_GCM,data:Er3ZW24k1ZSnvw==,iv:tPvhcwVwSfmXfKCxAQP3MuJ+/LqrmrmhTPPEYTkCdQA=,tag:zMk3ToTYvmSsrCCAfomfUw==,type:comment]
-    #ENC[AES256_GCM,data:cMFiq5IkHODjb2IIifcokp2t0uJK8cE0ju+zDYc=,iv:LzjB0hgX8eErAI+vQi28e1pMsS5krP2xI3bf6/eOYuE=,tag:DHPjr1uGjFK/muNTp784Eg==,type:comment]
-    #ENC[AES256_GCM,data:NkzmZVZoNpHYzA==,iv:0aZTdJCmIvdAPLNcIq5CyVbK1gVcZubCUnxw5oYNMU0=,tag:0pOdvKk9orJsV+fwmANdaQ==,type:comment]
-    #ENC[AES256_GCM,data:sqsz3XF2CLKK/lMtbEEduezC,iv:KEU+3F3VOD9FByWjMAWEIk2ZaaBmoe6xM2HNITGaSAk=,tag:fXFGGl+5jZlMfgobdyQRwg==,type:comment]
-    #ENC[AES256_GCM,data:8Q==,iv:vqb2nV1r3vWwWtXpPC6T50wXf2gO7SxS1afRSVBAMC4=,tag:d6a1PiQR8ZLbb3Taw9BRhQ==,type:comment]
+    ## If you're providing your own certificates, please use this to add the certificates as secrets
+    ## key and certificate should start with -----BEGIN CERTIFICATE----- or -----BEGIN RSA PRIVATE KEY-----
+    ## name should line up with a secretName set further up
+    ## If it is not set and you're using cert-manager, this is unneeded, as it will create the secret for you
+    ## If it is not set and you're NOT using cert-manager either, self-signed certificates will be created
+    ## It is also possible to create and manage the certificates outside of this helm chart
+    ## Please see README.md for more information
+    ##
+    ## E.g.
+    ## secrets:
+    ##   - name: example.local-tls
+    ##     key:
+    ##     certificate:
+    ##
     secrets: []
-    #ENC[AES256_GCM,data:Z4yiymGyMPvrnwfeDDAvqXdNkN28+HPiIYcXxZaV4w==,iv:AU4y+lobi2+HHbeolmJC7qG1/7AJcwMk71XtuzU6Y4U=,tag:ZOC5lCvh2lzr4G3Lj9q8gQ==,type:comment]
-    #ENC[AES256_GCM,data:MQ==,iv:B4becZJhvOXuyPjy8ooFexDxdlibxVU2Qlr1ZM4Pia8=,tag:Xzy1nFkz/raS1aTULeM9Hg==,type:comment]
+    ## Prometheus Exporter / Metrics
+    ##
 metrics:
-    enabled: ENC[AES256_GCM,data:M10GY6A=,iv:Q5qD8grZ+JV4DCWpZVypOCl2W6kmix12BY9nc/819FE=,tag:Od/ZMPnvJrY+I9jOhr2wBw==,type:bool]
-    #ENC[AES256_GCM,data:BOCevMmDAkncYx8pOKYK7xyF8q2p3+ez4KqFXOEYjjZ77SW6+hIVMls=,iv:aB0URmre0y4OORxUYd0hcMHiZghgtbHXPTzjYaFTsVw=,tag:XHxFT90aBEAEOy/EwC5DHw==,type:comment]
-    #ENC[AES256_GCM,data:vGPo11uRoVNsKYvCS4gabE2AcfMsjGplNbOgHT59lYArAaCsQcgl9tYRoktFFhDynaC4ntNYE2YSWlXe,iv:tZz+pYjD/48+6QVeMsS98fGFPsBnB+JPw+7IfwsH6hM=,tag:rFlZobt8Pp6yPb33L/+rqQ==,type:comment]
-    #ENC[AES256_GCM,data:5A==,iv:Yg95XRoZkKnvnLur6+fnIDV6G2RjuHotcYxXp+p+yQM=,tag:kj1u1kb6z3PXhPGBGbDHCw==,type:comment]
+    enabled: false
+    ## Bitnami NGINX Prometheus Exporter image
+    ## ref: https://hub.docker.com/r/bitnami/nginx-exporter/tags/
+    ##
     image:
-        registry: ENC[AES256_GCM,data:l8fyWugb8S1s,iv:AnD+OeYY1XwX7Pb6G1Qp3vGs4lo6OSudRRvCKLYZDM4=,tag:zOAcNiilW+YfrxO2Jkfnbw==,type:str]
-        repository: ENC[AES256_GCM,data:7lCrmelAf8rH29/MYvrio/OiJm/B8w==,iv:aOh/nrFLaXe2sTNOop1txnAu/6vpe+TmPXPZJr3utZ8=,tag:ubXI6tcnOwfl6b2XKMc4oA==,type:str]
-        tag: ENC[AES256_GCM,data:0riudJSTzED7hcb7JcDC77ezlKc=,iv:5IVcVi3w98Vd9CMWi1DqBptRTSG8FZAsPR31V2gDhq8=,tag:IPANlJVs51HxD86flpCnXQ==,type:str]
-        pullPolicy: ENC[AES256_GCM,data:fEEar2U8vEAt7fA1,iv:B5V2SN1RCh32l2LohIEUyA7qUhNNvggH4Fv6VoaLL58=,tag:gDEswZjE6Sx3HGQ7cDoltg==,type:str]
-        #ENC[AES256_GCM,data:xfxOiB2h2Tw4ryfnSV/66at+QslatZR+G0FFq0i5uQGkzwXFRzJZFCZyaNVqYj3fPWo=,iv:Kgzy1JRdZET4a4IWbXkNc0GQEkJg53DwVF9k9yJeVZI=,tag:07lClh0tHZJnA88FF2/GWA==,type:comment]
-        #ENC[AES256_GCM,data:S81ZKmSokjfPxcc7VUtYyxrA+8bCMZAx4WV/faUJ3me6lKcoEhcLflBi7E30HU0n2RBLEA==,iv:65phj6XkEPouY+WoYz47ivc4y4902bXZbp4sQPlwcoo=,tag:QurF0icXVxq1iIstqSRPgw==,type:comment]
-        #ENC[AES256_GCM,data:39lIJJH6hxs8UPfb135qu3AYN6+9P01yRJ8DhFT3XNeyzXb/p8AIpiESZOmuhwL8PVQV9zMtDrigg0Az7bwEYhgS47YTEUgujp6wJjMzl0hqtzi32MdSncmhjwU=,iv:H5SMFkor7Zx87MxUW/fhwM6AMOMPOrXiAzOCSO7/M5g=,tag:JVmmONmkEKgcdbs+ot/Bgg==,type:comment]
-        #ENC[AES256_GCM,data:cA==,iv:IF76Ih1QhoI8P22ujJ+1z50ApCnXhYTTBQo5FkOgV6U=,tag:3TYCDE/Epj6PKpkbbPXADw==,type:comment]
-        #ENC[AES256_GCM,data:uJHAZxSeMoLADAQmfg==,iv:AZvlybqPdpHdzWfZURunbx1j+8DzG/uh/GVYcWWNyLs=,tag:pikQ80BZw7dxbYEEfjNe5Q==,type:comment]
-        #ENC[AES256_GCM,data:uRSSn1kWK19MJPT3o8hwyXGB0WnNVk+2KKzMGQ==,iv:FtwuBkywJEwtNHNvm+f+gb+lHZBsFp6fyL3Tt4H2sn0=,tag:QKMxbkBc8hz64xTjDWD9gw==,type:comment]
-        #ENC[AES256_GCM,data:2UTMuhh9lVxp7+tC4IgxZ7KXx3OT6pyHI3L4++hMSHOr4L8oRAbNXgFuJu6hSzVLpg==,iv:4SPMNPEf869H0HolJTPuyRwWvLOomceADUHDMovmo4I=,tag:mRIUii3RU/CeERUM0o6MZw==,type:comment]
-        #ENC[AES256_GCM,data:gNDVmsyXRGEroS0VEFTpqRjsv4xNsDuHK4H4Tw/mSJ6Cb0/9gtF1xBHgDxSb/HbPGjAZXeI94lSKAgCzV1w+WZb01PkXDw4pauvUe7ynlNx/7yNuGQ==,iv:u640vVNaAkQJeeqU8zpm0upT0y95VPm13awyQ8y38hU=,tag:hlJU6zEAx2sLZgZLkiargg==,type:comment]
-        #ENC[AES256_GCM,data:JA==,iv:ZLRihAGp52bN/nmn5fuI3MO2djkmOmJ5JoVkvcUNfqk=,tag:i7zNkVk0SC8xjTQMvvtljg==,type:comment]
+        registry: docker.io
+        repository: bitnami/nginx-exporter
+        tag: 0.8.0-debian-10-r133
+        pullPolicy: IfNotPresent
+        ## Optionally specify an array of imagePullSecrets.
+        ## Secrets must be manually created in the namespace.
+        ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+        ##
+        # pullSecrets:
+        #   - myRegistryKeySecretName
+        ## Prometheus exporter pods' annotation and labels
+        ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
+        ##
     podAnnotations: {}
-    #ENC[AES256_GCM,data:D6waW6Q6RxK/hwpd/zx6EpV3mJXxyO63vb6oTifoK8ajhfdfsIBMfQ==,iv:jm8zk8y1xD5A8GB1wRshTf2664UU0IdWscbmPM1N59g=,tag:bh57+H5y4Q8bxM02HhGUiw==,type:comment]
-    #ENC[AES256_GCM,data:Zw==,iv:n3PaFLDJY/xuRuA+rsO5s8oFBzgPjJUTpLbfceO7Eqs=,tag:qMas/45T/WURh854/ofbuw==,type:comment]
-    #ENC[AES256_GCM,data:oPD4vEB8gZ+KLFi57dvpE43DQPnzERQ102xB92PTCOE=,iv:IDB0IhLUlNuZhw5KTO4ort26U28yjDFxrqZKKb6QstE=,tag:217fiRrtmUdRb2RJMO38aw==,type:comment]
-    #ENC[AES256_GCM,data:2A==,iv:9p9ErFfesNOUbV9krdg9xmIOsZl3E2YZkZiisWhZgBc=,tag:BMAm/sGUk40WLAJ2U45ZMw==,type:comment]
+    ## Prometheus exporter service parameters
+    ##
+    ## NGINX Prometheus exporter port
+    ##
     service:
-        port: ENC[AES256_GCM,data:hMHg1g==,iv:IYP9zZfa4KhDuWFpzLYVEETtpIQ6xkjHWWuKNCLLSZY=,tag:z+kuzAP2bVyHnfHUbg0Rkw==,type:int]
-        #ENC[AES256_GCM,data:ARcy0chyYRgsTZCaHhdu3IhX6MmLV2lK4v3OZOj2TOfOHukysMGR9dnHoBRXTz81DA==,iv:1Dr7q2nguJHD7u8mvUrvPRNOGOzx/y8jvrp8ljBgVZY=,tag:Fd0/BAsDA+bvn7Zs4eYzQA==,type:comment]
-        #ENC[AES256_GCM,data:CA==,iv:GN6XOMi0Oi1rUZmemiEsHGdN8m8e6X1ok8wRrbQJV+g=,tag:OzA2hgRm5auyh9lPqdDA9g==,type:comment]
+        port: 9113
+        ## Annotations for the Prometheus exporter service
+        ##
         annotations:
-            prometheus.io/scrape: ENC[AES256_GCM,data:w3nWQg==,iv:yBVKcDp8/VwGcvbh3/AubPs9EDz8xwWxwkIz8TMSZJY=,tag:kVblR32i2gjTtxKowSxeEw==,type:str]
-            prometheus.io/port: ENC[AES256_GCM,data:FyaLKJWWXcyburii/lE5tqIWvcBY6eK3iSNXwW2lbCGsYw==,iv:ngNEQi/gXb268LQMlbKqaEub8VYS2ZvaZqa15YjTccg=,tag:uumKf+JdR0rtBNT5E5f7qA==,type:str]
-            #ENC[AES256_GCM,data:hlTwwbHD4/6WO1X7QPS+zpMOa4BKgRuueRgbcRXX8ySFQSyVqHLlLEbTvgH3l7BbLFyYmS9gRyY=,iv:0RPB2UorW6wUJ2G/G7a90qE63vaDMISOd/aYBOEB9NE=,tag:AILpEDKwuvShfpsJl38rQQ==,type:comment]
-            #ENC[AES256_GCM,data:XqiVbzLU9grELrXGtRpd6SPupBd/eKvvPvQ0OvRu/5zmKZeVFnXCJZalDXzQwST2xFH5yVHa23ELpi5iiJY=,iv:yeEw855BL/BmuzmP7XOOgKlfHP5gfOmuxGEAmqpovlw=,tag:n9LhDAU7661md5AU6KAFzA==,type:comment]
-            #ENC[AES256_GCM,data:tQ==,iv:vQs4NwgQwFyzSDq7TGlenCcPU1NBCJfpUF27DCE+LTE=,tag:nADv8n3l1bsMuonBITjc5A==,type:comment]
-            #ENC[AES256_GCM,data:5u8Gzj2LCZdfqPHHW+pSMm+m5hoqa/F08X27Oj6MYw4ii+wa0kr6+wTVH+E1nea03OQRRYDFtWSXAjgzlWGn/EDNMHEdfgvuBiI3Ng/aZJyDbawyFEpumEcKoPqmfjeWN9ONqKUqU+TPg30bbeKtJJjOQwYNIncPDzCIsY2a22ga1xWelIwtzWHeHb/Pq4JKwW9wzAJV8YphHZk3en5w4Zd/oenqFOog8xqNvp5pJmogSoUgnEckk1YC67i6acKbjLw4fW6bCocTD0wVj2z+O/hLqeCFB94Oq3yWXEPil60Zq/g=,iv:D0W2kpFR4SVdfdZZuTgyJFbZTv75ceAqNpqQddY1tKM=,tag:nSFHbXwMWHAeORofTrHbpA==,type:comment]
-            #ENC[AES256_GCM,data:dXYbndIHfQaxtVOGxzQ8S2CsfzAkg57Uz9ckwrMmPyeVmQj++LwspxSK6PPoyOkKYbDsaapKv7nnsYv4qoPXsGk5V3erv9W28KnDTiEZpykyWNnGrFDIADQI8DyxFCBbIw38lrLxw+lGFylPpA/47UBIeXm9/AWj2yqA4e+eHZg1CcLMY0VlB7OZoYAO6I8lsjO+Ul2l/9NMsOt9UqB0Q763lhf1VQ7ZCjw47aju8wHfCnMEip7AVYLwPJJ7jZBrZdUQzzXacIGR8miShxrs+PDoFRJoSv/MU/XkyltnipMBOmMduCaj,iv:924DKaTlMI/m7BABWSaoxvMS2KsNxTkGsZfdkm55NtM=,tag:ThFVBrkOZunjefGNMZT+CQ==,type:comment]
-            #ENC[AES256_GCM,data:M+9JqsaD3G8dv01yZ8DbWcEfDjnpi2IM1FX23R1sX5LSfjmuRH1Z+uzTIVfDsoJJwTULeKcAVJ7PGMLAcT2H8eDYC9aRzAsKlFkFwPnDBGWp+KciM/Pub3MYd3ed1naOAJSBQfALhy/FXb6LGGkd2m6VJWJN49ECo0WPhOyHPmv2+tijdxTqY7FnvxznLmo3dtU0GEvo8GM8Ah6vVsLs7tAZ9JAgn9FlxlX8+2BxPJN5UZ8I89vByNFfQkhgJFbSMoHBNt/zjj9BAh0kctNg+Mrg/5rzS8Aq1CKJ2wqGymTv3u5JXzUR,iv:JI/7FCF3IStV1KR8Ttf/pl/c/aUoze2zvalbQo6cNJs=,tag:98jpMGKjH7wh9xxZA4HvLg==,type:comment]
-            #ENC[AES256_GCM,data:bqyDtD+Ym/NKrcqfhfRwZWhNd+pwItJai2Tvfv8IMUV/uQziiqL5DRllbWM/G94J6mGs4YvzV/Gsx0+LjgvLIEIwrrDGI3qsfkFh1KfcSTulONhg/UJD9NujHkAhumZ6g9PeT03UpfcpLY5jK6DUwnwf/+UtDzd6xL9u4vdpfmpjpslm0De0o+dYNHpMi+TWuYk8H16tgvCRwSHct+PIxswXKLrS6+bzOZ74WHMWCnLjCh54pk5EsZyGzpG5Or3XTi8PfxJ2vGhoIK5OqxfFB2CeVhE6weXm50nh,iv:LgaMtgoodvtxZ1+EM+1KRyFT7vn08RsAKELgkwiXKsA=,tag:obVHD6JFNdfdKcUT/LC9GQ==,type:comment]
+            prometheus.io/scrape: "true"
+            prometheus.io/port: '{{ .Values.metrics.service.port }}'
+            ## NGINX Prometheus exporter resource requests and limits
+            ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
+            ##
+            #ENC[AES256_GCM,data:eI2XBTOYvF8JWutA1h1kAISmkcJ69HGmGO3U2+NAEbrl4mTG3XAQqAoxnVS68ObZETLizCe4adQfxtbDxSDlzL+GDGGFh+Cqab7+Itei87XC5tcE/TKw,iv:W7KlYvMKrpnmmysRREZ66MpOVodF+Fpr6aywWjsXnl0=,tag:m4pNx7Nz398cMXJ3XQnryA==,type:comment]
+            #ENC[AES256_GCM,data:QGQ0jAm7Ve9JFwF9KDLmsYPwLCoY+g+dAOVmhzVT+N4rtL2YNFaltu77wTGGtEsbyq+apahNJg3AbdH26uyhgRXRPKCV6DSeS24k4PTFCx7LS78AnU2Mtw==,iv:7B3u3LQoBhkZ4byBto4u4b14idMFI/Pddjskx0ZdZ08=,tag:BNFrF1YD5UUlz+gMAXGBGg==,type:comment]
+            #ENC[AES256_GCM,data:JOuRSK50nbvAQy5X9UbeUAcGBFsEkE70tLPQjxd1RnyyzMriocReCxANSjNFxeLINeOLBfdsS7wyjzR2QtzTRMWjCea0MmeEHj97cGbpgqOEkacM1QnjA3aR,iv:hB5nyLe5fuhn2S9/ENMy1BV/Z1FBSxvPQWc0sSkLHjA=,tag:akd8ieSBdnQyOGLW13GLug==,type:comment]
+            #ENC[AES256_GCM,data:sCuQg9PNbRPaoH2KAveF6pwKs81jA+GYTnponBGtea2lQgu3bFaxFFm+t3YNLsaoU40ntSHXcAOpjAFROZg5rpXYuedhszm7xmbBawRXVC9b,iv:PcSv9KopUc9VUWN9wfzRd/HisoCL8gGcXD8U3eOuTxY=,tag:qEIzLWe0x4T/kuAUCyb/ug==,type:comment]
     resources:
         limits: {}
-        #ENC[AES256_GCM,data:R0kAwiDw8N55J9Po,iv:kA1MyWNShQKtRZ4exyD6NEcJm809xj2qJ82U/jGjUBU=,tag:ZcV2xOJ/S38zlUKwpVN2xA==,type:comment]
-        #ENC[AES256_GCM,data:QrqgYZ7K7eG8vddy/oO9LQ==,iv:yFrZzH44Xu3u0N0bAiERY1R8RmM4pfSWjKiqgrhftrA=,tag:y7aZuj1StBMEaOuyjafm9A==,type:comment]
+        #   cpu: 100m
+        #   memory: 128Mi
         requests: {}
-        #ENC[AES256_GCM,data:o2WNbY8L29St7fgX,iv:YWYlaTB26fAiDEnyP+NroDsaXy3h5JUPT+mTjz7k6wo=,tag:SSrHWJqRevVoRi0vK2WhKA==,type:comment]
-        #ENC[AES256_GCM,data:/3DaQ3El8ucDBFSHL3D7Vw==,iv:F6fE8hrX0REQqkU0xnsY77ZhJAgJXeW6fSXMyhZhcGk=,tag:sr+R883hNVqsXMxR0QrRoA==,type:comment]
-        #ENC[AES256_GCM,data:4gzWhE/OOXALb2QiW+yYNX+tkDUNudIqaAqfGKWtY2sIL+CsTfFZDP3Wzpk5qLKWBGA=,iv:35qLLUDpP4I7ZF6jUTbt/gmD7qOLi2U5MAvorPcVTwI=,tag:zQBcsEQAEV0qJn71xOIT6A==,type:comment]
-        #ENC[AES256_GCM,data:Wg==,iv:MnubjiKXhM2e1R0217hC7J+7fVvkT5fNJMXJc0iexgc=,tag:aeqty8fERYeraQ2q4EBPUw==,type:comment]
+        #   cpu: 100m
+        #   memory: 128Mi
+        ## Prometheus Operator ServiceMonitor configuration
+        ##
     serviceMonitor:
-        enabled: ENC[AES256_GCM,data:aCcXORo=,iv:u7b6MSJocSsYAiv6iJ0oipDddpDbBPhaXfh0Y91Bb7o=,tag:Fl8eUhYNqGh0YlqMe6gFqA==,type:bool]
-        #ENC[AES256_GCM,data:egGHmVdHs8g+Jjc6a+YAvrLW7DJCUmFc2dGhwl2wUULowhyaq9EmM7iB,iv:H1eaoRwojamRjFXJZyx/2MixsjhefFLJxyq2DNEiOJc=,tag:X9NnCQ/lSWRw4GPmSvfZnw==,type:comment]
-        #ENC[AES256_GCM,data:Gw==,iv:mQIR62bx2oXxtGfklt3OAc+OPcUOIss/x3ujESiyI3I=,tag:Lswb7gGQ36uBFHZWnWaW5A==,type:comment]
-        #ENC[AES256_GCM,data:OZBTjy9WKRK927BrS8FqYOWaajW4rA==,iv:CCi1LvdnnmUN6vbAJ3hbNttPW5chA0wt1vW3hL3t8hc=,tag:W37/q9a0LtxhfxntNIMgnw==,type:comment]
-        #ENC[AES256_GCM,data:LJQPLvsgXJwTcxpQmcx70KhDyxW8wVq9F4PA1dCwS7svvlwYjHGel+vW3dMfjQ==,iv:XvlY8qHTQ1OZphoZuQdZre0QrVajWoS73sP6qo2pnWs=,tag:3n5HZIyQcfxcdoUkpWR2nw==,type:comment]
-        #ENC[AES256_GCM,data:c653hmFUFdrS9avTQ29arfldaDb8/N0Waq6hlWIBTis0OsiqWHRLiNqRiGQGcAJPXqryzrQ/Od6aimttpnLNPTdkhUbDcxDCo6vfU28B9xjywBYveUQ5Iz72zxjOzg==,iv:VKtZPoGXOwv/k70kpc+SwSaIhb/M9iwc4c+ucfKmv7Q=,tag:povOd1kQIECKmNIUoC6LWw==,type:comment]
-        #ENC[AES256_GCM,data:yw==,iv:ZFG4kaRlU7ofBLEvnB+er3Fa8tf950Xy2narUX8d/A4=,tag:uiwOoac9ZCnAsT2U9TQtrA==,type:comment]
-        #ENC[AES256_GCM,data:HYaxeG4ae5AalktW02M=,iv:X/KUsjrM2pMnmnCF7nIesoysnwb2N6qNsyI4vT07nPI=,tag:jAG2f81UAbpcIrxyGCzNmA==,type:comment]
-        #ENC[AES256_GCM,data:+sX2JjZYQsFAY879mhxqjhSMxlJ2QZim6h7D3w2mNwot9RZMsm9TTuU=,iv:ZLacT5vCivxCGrKhkgt2/388GaSXmh50En2OP1FI+xk=,tag:5bbNv56++6EKlz5Vc0RiMA==,type:comment]
-        #ENC[AES256_GCM,data:JA1jldsUWfoMzU/w7adBGG2Z1+6T4zFHnWZYmHGnxbFuIFiHfxnNTSe0bUEwL3yckW+9ULcEb3SQp18bWpXcQfIlTaTCvuSBSrFUjSYpBqjckRQHJTcdmhn+69PxOw==,iv:mHBdZmKO+EKWS7013TifjHKNd0kJSOvHXNresbboVck=,tag:MXcgi8ZcMJ7AGSo/taXFMA==,type:comment]
-        #ENC[AES256_GCM,data:tw==,iv:W7jKeV+gksK+p6iqZ3zlNQiU31XOEEHoW1eEHfEvm+s=,tag:09GphFY6mC0jTS2qranDXw==,type:comment]
-        #ENC[AES256_GCM,data:sT+FYxWnQRGADzRFSAjHac/xCA==,iv:MBs8VZqTNVNneJuxvfsqwPij6WwStzBrFoZOEMILyNs=,tag:s/Cqa9NQbvhkeLkKtoVHlg==,type:comment]
-        #ENC[AES256_GCM,data:rU8I5cBjEAPXTi73cyOIxjJmLoeaY9Ptff2MiW7dwes=,iv:4Cslz2E4jg/Gn49J0pTkv0mljiJF5Vuv809Eue6KafA=,tag:qm9TqlsRSFxaLMEEiVpWIg==,type:comment]
-        #ENC[AES256_GCM,data:nlQ5R/oB3Ndk/iFt97tJ6ApimzKM4onEaPA0OBMejS01QlQwcRlE+sqMaiHlQ9ZQb9EVbjK/2c9gmyNZuPjTnvBtvaEbDbX54Px+t230VA15NEIFGqCdz7f2gMxO+aWPpEdwuEAuN16I,iv:YdtoV4CyH6wj+VmjGiE6KBZJ5lHmodPBVSWmPaZm99Q=,tag:Sh3P231xYoO5uYDV5Bn+kg==,type:comment]
-        #ENC[AES256_GCM,data:Pg==,iv:+mjc0tX1Awb5nIcTAFI4lGKQMu97g3oWDyHDZszEScM=,tag:tU01QLusuZUEorfjioyn/g==,type:comment]
-        #ENC[AES256_GCM,data:4xADohxJg2RdJg==,iv:6MdD3eEHOXiCltNirwcuI4aICEjws+HAedlr+owB4xk=,tag:1T9LD2GWvnpW25+d9ApeFw==,type:comment]
-        #ENC[AES256_GCM,data:w11jKQj5TM05Wueqy21eb/uQ2yxUNpZOVDnAJw==,iv:bpHPeOeZS2wH4Q8yR2NNPjAGq4fuitJQE37u0+nRtf8=,tag:4eCCfBGGxQKE41dpQCax+w==,type:comment]
-sops:
-    kms: []
-    gcp_kms: []
-    azure_kv: []
-    hc_vault: []
-    lastmodified: '2020-11-16T02:26:51Z'
-    mac: ENC[AES256_GCM,data:8kymP1icHrhU+rJOC3ohIxqEmRw7SWnFArb4FT+H+PXcH0CO0cA1JnGGk2EiREF9vM1Ku6QLrcchQHY6JBmtlX+7i3rXu8iBM4/NXHOK2xTKV6+OGucEsqpu2Qi3TEa9BA2C1yMdYPooC6UPBZtQvYhNlATwEAbRtgHUFEaVz24=,iv:/u735NSbgE0ay5dXBrjhH0LN6Ply7a6pSULtpPzrUbE=,tag:o/MPrFv8NXsFYngnGyn7OA==,type:str]
-    pgp:
-    -   created_at: '2020-11-16T02:26:50Z'
-        enc: |
-            -----BEGIN PGP MESSAGE-----
-
-            hQIMAyuzUFDnAopaAQ/+MrJc/3DyhnXc520kNcearl2YhS5iqI6+SaZwmaIL7ntX
-            GV8dMxG11IdSK72EM/jRSJQARlk3iPe5AoRULkPsXkqV0wP4FdmoaRE7cHz5LJyp
-            H2Ca4F1Vjxo9jhs0GLbPsh0QT+3SU/RYOsyVYxuwvyALwAQM5rWRbNnlPzXiP5yh
-            52dtTDewfNl7vcFSInm7svUdelGCKSl/OcTlAPvDxIBjjQTm/c/FoGBcm7dMx0qx
-            1wSMvzznemmmMDDm1hb3645UmGrFXVZWRrn8ePV6UwACd1wEb9olr5koEEDdZVtx
-            NctAhcwWl/USBHf/2mxBp3OXWtNBx6mycv1qjwuUi2BSa4A4dptUAq+T4/6SKvyN
-            HScQf3ArOexiPlZGR2yE4A7VkTO3w/YekflnLMdXnLjzeLFBsVK6pcB4Fk9vjtSI
-            zM+GOmmZTx9hie/4dQs/Qjunjmba0MvgEmY2sgAmdKkNwuez9vVzUdJrjrt+jFVF
-            cyKImLpkdlBEExvyB4wK8thrNSeYzdToY4V/tH90RBZ4qBndXwA8K9iErso+AHaZ
-            9SEyZ1bA673KZLBLbPzADO+QSfPnCQ2qBd7oYG2T6tSD2j5jtV6ZBDaH2N42iXU1
-            jhaGqtLoCxm5ViIb7G2lpb39azllGVlpJb5zGx24p1F7iGR+3mvSGuCMP0Eo4dvS
-            XgEUaUDPXraU18V0g5xRCKQV2V4MkDo2+pMctK4X7arroWWbbngXjvwLRHJB4SED
-            NHzwvsIQL+aOZ4wcbxP9jcvp8cH76oqk9CeAN1/g68Vrssg7um/DXdy8WOeqS78=
-            =/ESE
-            -----END PGP MESSAGE-----
-        fp: 12E2FA117FF2651FC77488A4F8F98C35CA484CEE
-    unencrypted_suffix: _unencrypted
-    version: 3.6.1
+        enabled: false
+        ## Namespace in which Prometheus is running
+        ##
+        # namespace: monitoring
+        ## Interval at which metrics should be scraped.
+        ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#endpoint
+        ##
+        # interval: 10s
+        ## Timeout after which the scrape is ended
+        ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#endpoint
+        ##
+        # scrapeTimeout: 10s
+        ## ServiceMonitor selector labels
+        ## ref: https://github.com/bitnami/charts/tree/master/bitnami/prometheus-operator#prometheus-configuration
+        ##
+        # selector:
+        #   prometheus: my-prometheus
