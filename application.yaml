@@ -1,22 +1,24 @@
-apiVersion:  argoproj.io/v1alpha1
-kind:  Application
-metadata:  
-  name:  testapp 
-  namespace:  test1
-spec:  
-  project:  default
-  source:  
-    repoURL: https://github.com/qh-hale/test-nginx.git   
-    targetRevision:  master
-    path:  nginx/
+---
+apiVersion: "v1"
+kind: "Namespace"
+metadata:
+  name: "hello-world"
+
+---
+apiVersion: "argoproj.io/v1alpha1"
+kind: "Application"
+metadata:
+  name: "hello-world"
+spec:
+  project: "default"
+  source:
+    repoURL: "https://github.com/qh-hale/test-nginx.git"
+    targetRevision: "HEAD"
+    path: "hello-world"
     helm:
-      releaseName: testapp
       valueFiles:
         - "values.yaml"
-  destination:  
-    server:  https://kubernetes.default.svc
-    namespace:  test1
-  syncPolicy:
-    automated: {}
-    syncOptions:
-      - CreateNamespace=true
+        - "secrets.yaml"
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: "hello-world"
