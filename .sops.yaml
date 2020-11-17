@@ -1,4 +1,0 @@
-creation_rules:
-    - path_regex: "^.*$"
-      pgp: "12E2FA117FF2651FC77488A4F8F98C35CA484CEE"
-    # encrypted using helm-secrets-example-projectx <helm-secrets-projectx@example.com> and helm-secrets-example-projecty <helm-secrets-projecty@example.com>
