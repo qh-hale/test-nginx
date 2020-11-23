@@ -14,7 +14,7 @@ spec:
   project: "default"
   source:
     repoURL: "https://github.com/qh-hale/test-nginx.git"
-    targetRevision: "HEAD"
+    targetRevision: "vault"
     path: "hello-world"
     helm:
       valueFiles:
