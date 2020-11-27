@@ -1,0 +1,5 @@
+creation_rules:
+        - path_regex: .*hello-world\/.*\.yaml$
+          hc_vault_transit_uri: "http://192.168.100.13:8200/v1/sops/keys/secondkey"
+        - path_regex: .*
+          hc_vault_transit_uri: "http://192.168.100.13:8200/v1/sops/keys/firstkey"
